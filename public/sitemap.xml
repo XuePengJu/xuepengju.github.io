@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://mypeng.site/posts/a3886b70</loc>
-    
-    <lastmod>2022-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/%E9%A3%8E%E6%99%AF/index.html</loc>
+    <loc>http://mypeng.site/posts/ea42950b</loc>
     
     <lastmod>2022-01-01</lastmod>
     
@@ -21,6 +12,15 @@
   
   <url>
     <loc>http://mypeng.site/video/index.html</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mypeng.site/%E9%A3%8E%E6%99%AF/index.html</loc>
     
     <lastmod>2022-01-01</lastmod>
     
@@ -48,6 +48,15 @@
   
   <url>
     <loc>http://mypeng.site/bbs/index.html</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mypeng.site/posts/a3886b70</loc>
     
     <lastmod>2022-01-01</lastmod>
     
@@ -286,6 +295,13 @@
   </url>
   
   <url>
+    <loc>http://mypeng.site/tags/%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mypeng.site/tags/%E5%8D%9A%E5%AE%A2%E5%9B%AD/</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -335,14 +351,14 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/postman/</loc>
+    <loc>http://mypeng.site/tags/Appium/</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/Appium/</loc>
+    <loc>http://mypeng.site/tags/postman/</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -358,14 +374,14 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/categories/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E5%8D%9A%E6%96%87/</loc>
+    <loc>http://mypeng.site/categories/Hexo/Admin/</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/categories/Hexo/Admin/</loc>
+    <loc>http://mypeng.site/categories/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E5%8D%9A%E6%96%87/</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
