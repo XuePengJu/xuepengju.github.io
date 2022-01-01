@@ -1,0 +1,56 @@
+- let emojiMaps = '""'
+if site.data.valinex
+  - emojiMaps = JSON.stringify(site.data.valinex)
+
+script.
+  var requestSetting = function (_from,set) {
+    let from = _from
+    let setting = set.split(',').filter(function(item){
+    return from.indexOf(item) > -1
+    });
+    setting = setting.length == 0 ? from :setting;
+    return setting
+  }
+
+  function loadValinex () {
+    let guestInfo = requestSetting(['nick','mail','link'],'#{ theme.valinex.guest_info }')
+    let requiredFields = requestSetting(['nick','mail','link'],'#{ theme.valinex.requiredFields }')
+    let friends = '#{theme.valinex.friends}'.split(',')
+    let master = '#{theme.valinex.master}'.split(',')
+    let tagMeta = '#{theme.valinex.tagMeta || "博主,小伙伴,访客"}'.split(',')
+
+    function initValinex () {
+      window.valine = new Valine({
+        el:'#vcomment',
+        appId: '#{theme.valinex.appId}',
+        appKey: '#{theme.valinex.appKey}',
+        placeholder: '#{theme.valinex.placeholder}',
+        avatar: '#{theme.valinex.avatar}',
+        meta: guestInfo,
+        pageSize: '#{theme.valinex.pageSize}',
+        lang: '#{theme.valinex.lang}',
+        recordIP: '#{theme.valinex.recordIP}',
+        serverURLs: '#{theme.valinex.serverURLs}',
+        emojiCDN: '#{theme.valinex.emojiCDN}',
+        emojiMaps: !{emojiMaps},
+        enableQQ: #{theme.valinex.enableQQ || false},
+        requiredFields: requiredFields,
+        master: master,
+        friends: friends,
+        tagMeta: tagMeta,
+        metaPlaceholder: !{JSON.stringify(theme.valinex.metaPlaceholder || {})}
+      });
+    }
+
+    if (typeof Valine === 'function') initValinex() 
+    else $.getScript('!{url_for(theme.CDN.valinex)}', initValinex)
+  }
+
+  if ('!{theme.comments.use[0]}' === 'Valinex' || !!{theme.comments.lazyload}) {
+    if (!{theme.comments.lazyload}) loadComment(document.querySelector('#vcomment'),loadValinex)
+    else setTimeout(() => loadValinex(), 0)
+  } else {
+    function loadOtherComment () {
+      loadValinex()
+    }
+  }
