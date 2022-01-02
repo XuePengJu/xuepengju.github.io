@@ -6,40 +6,24 @@ top_img: https://cdn.jsdelivr.net/gh/glassy-sky-lisong/StaticFile@master/top-img
 ---
 
 ## 关于博主
+{% note red,  目前在滴滴就职，软件测试岗位，因生活成本增加，现寻找机会， [ 【点击这里查看我的简历】](https://m.zhipin.com/mpa/html/resume-detail?sid=self&securityId=aPlBK8bPvwYGN-K17bf51tojkQAleSVeONgNdbIYnOFnMPG9_RketrfHR1vRIIXE6vI3ZNO4jHNMfwTuKnW5EydFThu8wUcV2wqyvwt5HnAImCB1BsgRU-Cmi3CeZOA27QuiRdHa9T0IJZu_EJDyxeB2S67JtpoEm9Of
+)  %}
 
-博主是编程学生党一枚，主要学习过如下技术
+### {% note quote, 自知学术采浅，自当勤奋 %}
+    1、系统学习过Python&Java自动化，包含UI自动话&接口自动化
+    2、主要负责后端测试，参与代码CR评审。
+    3、负责接口测试+端上H5测试+小程序测试+工作台测试wb+设计&维护接口自动化代码
+```
+常用的DB，熟悉常见命令
+mysql、redis 
+```
 
-前端|后端
-:--:|:--:
-html,css,js,vue,react,koa,taro,webpack,typescript,Sass，MongoDB|JAVA,Servlet2.0/3.0,MySQL,Spring全家桶,Redis,Mybatis,Hibernate,Struts,简单算法,简单数据结构,设计模式
+```
+常用抓包工具
+charles
+```
 
-<link href="/css/botui-theme-default.css" rel="stylesheet">
-<link href="/css/botui.min.css" rel="stylesheet">
-
-<div class="entry-content">
-  <div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[远方の小屋]</div>
-  <div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgb(36, 200, 255); border-radius: 10px;">
-    <center>
-    <p>
-    </p>
-    <h4>
-    与&nbsp;<ruby>
-    cungudafa&nbsp;<rp>
-    （</rp>
-    <rt>
-    真（ま）白（しろ）</rt>
-    <rp>
-    ）</rp>
-    </ruby>
-    对话中...</h4>
-    <p>
-    </p>
-    </center>
-    <bot-ui></bot-ui>
-  </div>
-</div>
-
-<script src="/js/botui.js"></script>
-<script>
-bot_ui_ini()
-</script>
+```
+常用的接口测试工具：
+Postman、jmeter
+```

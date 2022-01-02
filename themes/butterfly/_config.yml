@@ -32,16 +32,17 @@ menu:
    # 百宝箱 || fas fa-leaf faa-bounce animated-hover:
      # - 远方的导航工具箱 || https://lk.glassysky.site || fas fa-paw
      # - 远方的评论管理系统 ||https://ct.glassysky.site || fas fa-graduation-cap
-   找文章 || fas fa-book faa-bounce animated-hover:
-     - 时间轴 || /archives/ || fas fa-archive faa-bounce animated-hover
-     - 标签 || /tags/ ||fas fa-tags faa-bounce animated-hover
-     - 分类 || /categories/ || fas fa-folder-open faa-bounce animated-hover
+   # 找文章 || fas fa-book faa-bounce animated-hover:
+   
+   标签:  /tags/ ||fas fa-tags faa-bounce animated-hover
+     # - 分类 || /categories/ || fas fa-folder-open faa-bounce animated-hover
      # - 说说 || /shuoshuo/ || fas fa-comment faa-bounce animated-hover
+   时间轴:  /archives/ || fas fa-archive faa-bounce animated-hover
    远方杂谈 || fas fa-list faa-spin animated:
      - 音乐 || /music/ || fas fa-music faa-bounce animated-hover
      - 相册 || /photo/ || fas fa-image faa-bounce animated-hover
-     - 电影 || /video/ || fas fa-video faa-bounce animated-hover
-   友情链接: /link/ || fas fa-link faa-flash animated
+     # - 电影 || /video/ || fas fa-video faa-bounce animated-hover
+   # 友情链接: /link/ || fas fa-link faa-flash animated
    留言板: /bbs/ || fas fa-window-maximize
    # 关于 || fas fa-heart faa-bounce animated-hover:
      # - 我的 || /about/ || fas fa-heart faa-bounce animated-hover

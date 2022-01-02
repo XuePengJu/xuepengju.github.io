@@ -4,6 +4,8 @@ abbrlink: 8a00d2ea
 date: 2021-03-13 23:30:00
 tags:
  - postman
+categories:
+  - postman
 ---
 
 ## 1.界面导航说明
