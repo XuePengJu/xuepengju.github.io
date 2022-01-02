@@ -6,7 +6,7 @@ top_img: https://cdn.jsdelivr.net/gh/glassy-sky-lisong/StaticFile@master/top-img
 ---
 
 ## 关于博主
-{% note red,  目前在滴滴就职，软件测试岗位，因生活成本增加，现寻找机会， [ 【点击这里查看我的简历】](https://m.zhipin.com/mpa/html/resume-detail?sid=self&securityId=aPlBK8bPvwYGN-K17bf51tojkQAleSVeONgNdbIYnOFnMPG9_RketrfHR1vRIIXE6vI3ZNO4jHNMfwTuKnW5EydFThu8wUcV2wqyvwt5HnAImCB1BsgRU-Cmi3CeZOA27QuiRdHa9T0IJZu_EJDyxeB2S67JtpoEm9Of
+{% note red,  目前在滴滴就职，软件测试岗位，因生活成本增加，现寻找机会， [ 【点击这里查看我的简历】](https://m.zhipin.com/mpa/html/resume-detail?sid=self&securityId=gNBg1mzACRf32-r18SVS8tqmfu6C4XbGugOVwEiW8C7z58OExJg1Q9ZM2CIodyiC6jpWy8GxIYGxDYca7-58cM6Wh4XNI7bN0xrilqVe0ntc7YCFthqwoNhXTTIH7xlPoPchgF900_zRJMNx4JZgBchhwoJpaN35H9fw
 )  %}
 
 ### {% note quote, 自知学术采浅，自当勤奋 %}
