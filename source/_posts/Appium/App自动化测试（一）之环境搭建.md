@@ -1,9 +1,12 @@
 ---
 title: App自动化测试（一）之环境搭建
 banner_img: https://cdn.magdeleine.co/wp-content/uploads/2021/06/isorepublic-coffee-thanks-1-1400x933.jpg
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/3.png
 abbrlink: baaef441
 date: 2021-12-26 14:28:25
 tags:
+	- Appium
+categories:
 	- Appium
 ---
 

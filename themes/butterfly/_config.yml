@@ -536,8 +536,8 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: url('img/banner/4.jpg')
-
+# background: url('img/banner/4.jpg')
+background: url('https://gitee.com/XuePengJu/PictureDependency/raw/main/index/1.png')
 
 #  随机背景是否开启
 #  list: 图片组，从组内随机选择一张

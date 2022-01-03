@@ -2,7 +2,7 @@
 title: 风景
 type: 'photo'
 date: nodate
-top_img: https://lovelijunyi.gitee.io/img/banner/2.jpg
+top_img: https://picsum.photos/1080/366?random=1
 
 ---
 {% tabs test2, 3 %}

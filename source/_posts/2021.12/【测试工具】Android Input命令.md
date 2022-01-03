@@ -1,6 +1,7 @@
 ---
 title: 【测试工具】Android Input命令
 abbrlink: 7de15477
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/6.png
 date: 2021-12-15 22:52:48
 tags:
 ---

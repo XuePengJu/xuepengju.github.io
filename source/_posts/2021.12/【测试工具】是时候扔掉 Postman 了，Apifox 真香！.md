@@ -1,6 +1,7 @@
 ---
 title: 【测试工具】是时候扔掉 Postman 了，Apifox 真香！
 abbrlink: de4de369
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/9.png
 date: 2021-12-14 22:56:17
 tags:
 ---

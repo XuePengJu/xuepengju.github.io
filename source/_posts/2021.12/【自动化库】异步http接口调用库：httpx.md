@@ -1,6 +1,7 @@
 ---
 title: 【自动化库】异步http接口调用库：httpx
 abbrlink: b4b3bf4e
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/8.png
 date: 2021-12-10 23:02:26
 tags:
 ---

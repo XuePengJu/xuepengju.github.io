@@ -1,7 +1,7 @@
 ---
 title: 有什么想和我说的吗
 type: bbs
-top_img: https://cdn.jsdelivr.net/gh/glassy-sky-lisong/StaticFile@master/top-img/7.png
+top_img: https://picsum.photos/1080/366?random=1
 date: nodate
 ---
 
