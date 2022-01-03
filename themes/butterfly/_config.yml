@@ -545,23 +545,20 @@ background: url('img/banner/4.jpg')
 RandomBackground:
   enable: true # 是否随机
   imglist: 
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/1-tuya.jpg # imglist:  '- /img/cover/bg' # 图片位置，支持http，https协议
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/2-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/3-tuya.png
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/4-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/5-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/7-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/8-tuya.png
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/9-tuya.png
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/10-tuya.png
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/11-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/12-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/16-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/18-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/19-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/20-tuya.jpg
-    - https://raw.githubusercontent.com/XuePengJu/PictureDependency/main/index/21-tuya.png
-
+  # imglist:  '- /img/cover/bg' # 图片位置，支持http，https协议
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/1.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/2.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/3.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/4.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/5.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/6.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/7.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/8.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/9.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/10.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/11.png
+    - https://gitee.com/XuePengJu/PictureDependency/raw/main/index/12.png
+    
 # Show the footer background image (same as top_img)
 footer_bg: false
 
