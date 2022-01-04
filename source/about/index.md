@@ -6,8 +6,7 @@ top_img: https://picsum.photos/1080/366?random=1
 ---
 
 ## 关于博主
-{% note red,  目前在滴滴就职，软件测试岗位，因生活成本增加，现寻找机会， [ 【点击这里查看我的简历】](https://m.zhipin.com/mpa/html/resume-detail?sid=self&securityId=gNBg1mzACRf32-r18SVS8tqmfu6C4XbGugOVwEiW8C7z58OExJg1Q9ZM2CIodyiC6jpWy8GxIYGxDYca7-58cM6Wh4XNI7bN0xrilqVe0ntc7YCFthqwoNhXTTIH7xlPoPchgF900_zRJMNx4JZgBchhwoJpaN35H9fw
-)  %}
+{% note red,  目前在滴滴就职 %}
 
 ### {% note quote, 自知学术采浅，自当勤奋 %}
     1、系统学习过Python&Java自动化，包含UI自动话&接口自动化
