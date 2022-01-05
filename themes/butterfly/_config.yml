@@ -38,9 +38,9 @@ menu:
      # - 分类 || /categories/ || fas fa-folder-open faa-bounce animated-hover
      # - 说说 || /shuoshuo/ || fas fa-comment faa-bounce animated-hover
    时间轴:  /archives/ || fas fa-archive faa-bounce animated-hover
-   远方杂谈 || fas fa-list faa-spin animated:
-     - 音乐 || /music/ || fas fa-music faa-bounce animated-hover
-     - 相册 || /photo/ || fas fa-image faa-bounce animated-hover
+   # 远方杂谈 || fas fa-list faa-spin animated:
+     # - 音乐 || /music/ || fas fa-music faa-bounce animated-hover
+     # - 相册 || /photo/ || fas fa-image faa-bounce animated-hover
      # - 电影 || /video/ || fas fa-video faa-bounce animated-hover
    # 友情链接: /link/ || fas fa-link faa-flash animated
    留言板: /bbs/ || fas fa-window-maximize
@@ -826,7 +826,7 @@ pjax: true
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: false
 
 # Snackbar (Toast Notification 彈窗)
@@ -983,6 +983,6 @@ CDN:
   # aplayer_css: https://gitee.com/XuePengJu/PictureDependency/raw/main/css/APlayer.min.css
   # aplayer_js: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/APlayer.min.js
   # meting_js: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/Meting.min.js
-  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-  meting_js: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
+  # aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  # aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  # meting_js: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
