@@ -949,8 +949,8 @@ CDN:
   lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
   typed: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
-  pangu: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/pangu.min.js
-  # pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
+  # pangu: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/pangu.min.js
+  pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
 
   # photo
   fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
@@ -969,8 +969,8 @@ CDN:
   ClickShowText: /js/third-party/ClickShowText.js
 
   # fontawesome
-  fontawesome: https://gitee.com/XuePengJu/PictureDependency/raw/main/css/all.main.css
-  # fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+  # fontawesome: https://gitee.com/XuePengJu/PictureDependency/raw/main/css/all.main.css
+  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
@@ -980,9 +980,9 @@ CDN:
   justifiedGallery_css: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://gitee.com/XuePengJu/PictureDependency/raw/main/css/APlayer.min.css
-  aplayer_js: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/APlayer.min.js
-  meting_js: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/Meting.min.js
-  # aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  # aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-  # meting_js: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
+  # aplayer_css: https://gitee.com/XuePengJu/PictureDependency/raw/main/css/APlayer.min.css
+  # aplayer_js: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/APlayer.min.js
+  # meting_js: https://gitee.com/XuePengJu/PictureDependency/raw/main/js/Meting.min.js
+  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  meting_js: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
