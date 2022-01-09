@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-01T14:50:55.000Z</updated>
+  <updated>2022-01-09T07:32:32.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -17,9 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【01】Shell特殊位置变量</title>
+    <link href="http://mypeng.site/posts/3bd3916a/"/>
+    <id>http://mypeng.site/posts/3bd3916a/</id>
+    <published>2022-01-09T07:32:32.000Z</published>
+    <updated>2022-01-09T07:32:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-0-获取脚本名称"><a href="#1-0-获取脚本名称" class="headerlink" title="1). $0 获取脚本名称"></a>1). $0 获取脚本名称</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# cat test.sh</span><br><span class="line">echo $0</span><br><span class="line"></span><br><span class="line">[root@aliyun shell]# sh test.sh</span><br><span class="line">test.sh</span><br><span class="line">[root@aliyun shell]#</span><br><span class="line">[root@aliyun shell]# sh /root/shell/test.sh</span><br><span class="line">/root/shell/test.sh</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 如果只想获取脚本名称 basename</span></span><br><span class="line">[root@aliyun shell]# basename test.sh</span><br><span class="line">test.sh</span><br><span class="line">[root@aliyun shell]# basename /root/shell/test.sh</span><br><span class="line">test.sh</span><br><span class="line">[root@aliyun shell]#</span><br></pre></td></tr></table></figure><h2 id="2-n表示脚本的第n个参数"><a href="#2-n表示脚本的第n个参数" class="headerlink" title="2). $n表示脚本的第n个参数"></a>2). $n表示脚本的第n个参数</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 实例1</span></span><br><span class="line">[root@aliyun shell]# cat test.sh</span><br><span class="line">echo "超过9个变量不加引号"</span><br><span class="line">echo $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11</span><br><span class="line"></span><br><span class="line">echo "超过9个变量需要加花括号"</span><br><span class="line">echo $1 $2 $3 $4 $5 $6 $7 $8 $9 $&#123;10&#125; $&#123;11&#125;</span><br><span class="line"></span><br><span class="line">[root@aliyun shell]#</span><br><span class="line">[root@aliyun shell]# sh test.sh &#123;a..z&#125;</span><br><span class="line">超过9个变量不加引号</span><br><span class="line">a b c d e f g h i a0 a1</span><br><span class="line">超过9个变量需要加花括号</span><br><span class="line">a b c d e f g h i j k</span><br><span class="line">[root@aliyun shell]#</span><br><span class="line">[root@aliyun shell]# sh test.sh &#123;1..20&#125;</span><br><span class="line">超过9个变量不加引号</span><br><span class="line">1 2 3 4 5 6 7 8 9 10 11</span><br><span class="line">超过9个变量需要加花括号</span><br><span class="line">1 2 3 4 5 6 7 8 9 10 11</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 实例2</span></span><br><span class="line">[root@aliyun shell]# cat test.sh</span><br><span class="line">[ $# -ne 2 ] &amp;&amp; echo "请输入两个参数" &amp;&amp; exit 1002</span><br><span class="line">name=$1</span><br><span class="line">age=$2</span><br><span class="line">echo $name $age</span><br><span class="line"></span><br><span class="line">[root@aliyun shell]# sh test.sh xiajian 22 dd</span><br><span class="line">请输入两个参数</span><br><span class="line">[root@aliyun shell]# sh test.sh xiajian</span><br><span class="line">请输入两个参数</span><br><span class="line">[root@aliyun shell]# sh test.sh xiajian 22</span><br><span class="line">xiajian 22</span><br><span class="line">[root@aliyun shell]#</span><br></pre></td></tr></table></figure><h2 id="3-获取脚本传参的个数"><a href="#3-获取脚本传参的个数" class="headerlink" title="3). $# 获取脚本传参的个数"></a>3). $# 获取脚本传参的个数</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# cat test.sh</span><br><span class="line">echo $#</span><br><span class="line">[root@aliyun shell]# sh test.sh n1 n2 n3 n4</span><br><span class="line">4</span><br><span class="line">[root@aliyun shell]#</span><br></pre></td></tr></table></figure><h2 id="4-获取上一条命令返回结果-0-为成功-非0失败"><a href="#4-获取上一条命令返回结果-0-为成功-非0失败" class="headerlink" title="4). $? 获取上一条命令返回结果 0 为成功 非0失败"></a>4). $? 获取上一条命令返回结果 0 为成功 非0失败</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# ll</span><br><span class="line">total 8</span><br><span class="line">-rw-r--r-- 1 root root 54 Jan  9 16:09 killshell.sh</span><br><span class="line">-rw-r--r-- 1 root root  8 Jan  9 16:46 test.sh</span><br><span class="line">[root@aliyun shell]# echo $?</span><br><span class="line">0</span><br><span class="line">[root@aliyun shell]# lsl</span><br><span class="line">bash: lsl: command not found...</span><br><span class="line">[root@aliyun shell]# echo $?</span><br><span class="line">127</span><br><span class="line">[root@aliyun shell]#</span><br></pre></td></tr></table></figure><h2 id="5-获取上一个在后台运行脚本的PID"><a href="#5-获取上一个在后台运行脚本的PID" class="headerlink" title="5). $! 获取上一个在后台运行脚本的PID"></a>5). $! 获取上一个在后台运行脚本的PID</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# tail -f killshell.sh &amp;</span><br><span class="line">[1] 5268</span><br><span class="line">[root@aliyun shell]# sh test.sh &amp;</span><br><span class="line">pid=$!</span><br><span class="line">echo $pid</span><br><span class="line">sleep 5</span><br><span class="line">kill -9 $pid</span><br><span class="line"></span><br><span class="line">[root@aliyun shell]# echo $!</span><br><span class="line">5268</span><br><span class="line">[root@aliyun shell]#</span><br></pre></td></tr></table></figure><h2 id="6-shell本身的pid"><a href="#6-shell本身的pid" class="headerlink" title="6). $$ shell本身的pid"></a>6). $$ shell本身的pid</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# echo $$</span><br><span class="line">14975</span><br><span class="line">[root@aliyun shell]#</span><br></pre></td></tr></table></figure><h2 id="7-获取所有参数列表"><a href="#7-获取所有参数列表" class="headerlink" title="7). $@ 获取所有参数列表"></a>7). $@ 获取所有参数列表</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# cat test.sh</span><br><span class="line">echo $@</span><br><span class="line">[root@aliyun shell]# sh test.sh &#123;a..z&#125;</span><br><span class="line">a b c d e f g h i j k l m n o p q r s t u v w x y z</span><br></pre></td></tr></table></figure><h2 id="8-获取所有参数列表"><a href="#8-获取所有参数列表" class="headerlink" title="8)$* 获取所有参数列表"></a>8)$* 获取所有参数列表</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">[root@aliyun shell]# cat test.sh</span><br><span class="line">echo $*</span><br><span class="line">[root@aliyun shell]# sh test.sh &#123;a..z&#125;</span><br><span class="line">a b c d e f g h i j k l m n o p q r s t u v w x y z</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> $*不加引号和<span class="variable">$@</span>一样,在循环里加引号时，“<span class="variable">$@</span>”会把引起来的内容作为一个变量</span></span><br><span class="line">[root@aliyun shell]# set -- "I am" xiajian student</span><br><span class="line">[root@aliyun shell]# echo $*</span><br><span class="line">I am xiajian student</span><br><span class="line">[root@aliyun shell]# echo $@</span><br><span class="line">I am xiajian student</span><br><span class="line">[root@aliyun shell]# for i in $*;do echo $i;done</span><br><span class="line">I</span><br><span class="line">am</span><br><span class="line">xiajian</span><br><span class="line">student</span><br><span class="line">[root@aliyun shell]# for i in $@;do echo $i;done</span><br><span class="line">I</span><br><span class="line">am</span><br><span class="line">xiajian</span><br><span class="line">student</span><br><span class="line">[root@aliyun shell]# for i in "$@";do echo $i;done</span><br><span class="line">I am</span><br><span class="line">xiajian</span><br><span class="line">student</span><br><span class="line">[root@aliyun shell]# for i in "$*";do echo $i;done</span><br><span class="line">I am xiajian student</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Shell脚本" scheme="http://mypeng.site/categories/Shell%E8%84%9A%E6%9C%AC/"/>
+    
+    
+    <category term="Shell脚本" scheme="http://mypeng.site/tags/Shell%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【测试工具】Charles破解</title>
-    <link href="http://mypeng.site/posts/ea42950b"/>
-    <id>http://mypeng.site/posts/ea42950b</id>
+    <link href="http://mypeng.site/posts/ea42950b/"/>
+    <id>http://mypeng.site/posts/ea42950b/</id>
     <published>2022-01-01T14:50:55.000Z</published>
     <updated>2022-01-01T14:50:55.000Z</updated>
     
@@ -42,8 +66,8 @@
   
   <entry>
     <title>Hexo博客备份—妈妈再也不用担心你使用hexo写博客</title>
-    <link href="http://mypeng.site/posts/a3886b70"/>
-    <id>http://mypeng.site/posts/a3886b70</id>
+    <link href="http://mypeng.site/posts/a3886b70/"/>
+    <id>http://mypeng.site/posts/a3886b70/</id>
     <published>2022-01-01T09:09:02.000Z</published>
     <updated>2022-01-01T09:09:02.000Z</updated>
     
@@ -66,8 +90,8 @@
   
   <entry>
     <title>App自动化测试（一）之环境搭建</title>
-    <link href="http://mypeng.site/posts/baaef441"/>
-    <id>http://mypeng.site/posts/baaef441</id>
+    <link href="http://mypeng.site/posts/baaef441/"/>
+    <id>http://mypeng.site/posts/baaef441/</id>
     <published>2021-12-26T06:28:25.000Z</published>
     <updated>2021-12-26T06:28:25.000Z</updated>
     
@@ -90,8 +114,8 @@
   
   <entry>
     <title>【DDSNTO教程】-利用软路由插件DDNSTO实现内网穿透</title>
-    <link href="http://mypeng.site/posts/96032b58"/>
-    <id>http://mypeng.site/posts/96032b58</id>
+    <link href="http://mypeng.site/posts/96032b58/"/>
+    <id>http://mypeng.site/posts/96032b58/</id>
     <published>2021-12-21T15:21:13.000Z</published>
     <updated>2021-12-21T15:21:13.000Z</updated>
     
@@ -112,8 +136,8 @@
   
   <entry>
     <title>【工具分享】DDNSTO 简单、快速的内网穿透工具</title>
-    <link href="http://mypeng.site/posts/f6c5d65f"/>
-    <id>http://mypeng.site/posts/f6c5d65f</id>
+    <link href="http://mypeng.site/posts/f6c5d65f/"/>
+    <id>http://mypeng.site/posts/f6c5d65f/</id>
     <published>2021-12-20T16:07:00.000Z</published>
     <updated>2021-12-20T16:07:00.000Z</updated>
     
@@ -132,8 +156,8 @@
   
   <entry>
     <title>【测试工具】Android Input命令</title>
-    <link href="http://mypeng.site/posts/7de15477"/>
-    <id>http://mypeng.site/posts/7de15477</id>
+    <link href="http://mypeng.site/posts/7de15477/"/>
+    <id>http://mypeng.site/posts/7de15477/</id>
     <published>2021-12-15T14:52:48.000Z</published>
     <updated>2021-12-15T14:52:48.000Z</updated>
     
@@ -152,8 +176,8 @@
   
   <entry>
     <title>【测试工具】是时候扔掉 Postman 了，Apifox 真香！</title>
-    <link href="http://mypeng.site/posts/de4de369"/>
-    <id>http://mypeng.site/posts/de4de369</id>
+    <link href="http://mypeng.site/posts/de4de369/"/>
+    <id>http://mypeng.site/posts/de4de369/</id>
     <published>2021-12-14T14:56:17.000Z</published>
     <updated>2021-12-14T14:56:17.000Z</updated>
     
@@ -172,8 +196,8 @@
   
   <entry>
     <title>【测试工具】浅度测评：requests、aiohttp、httpx 我应该用哪一个？</title>
-    <link href="http://mypeng.site/posts/2173e2a4"/>
-    <id>http://mypeng.site/posts/2173e2a4</id>
+    <link href="http://mypeng.site/posts/2173e2a4/"/>
+    <id>http://mypeng.site/posts/2173e2a4/</id>
     <published>2021-12-12T14:12:58.000Z</published>
     <updated>2021-12-12T14:12:58.000Z</updated>
     
@@ -192,8 +216,8 @@
   
   <entry>
     <title>【自动化库】异步http接口调用库：httpx</title>
-    <link href="http://mypeng.site/posts/b4b3bf4e"/>
-    <id>http://mypeng.site/posts/b4b3bf4e</id>
+    <link href="http://mypeng.site/posts/b4b3bf4e/"/>
+    <id>http://mypeng.site/posts/b4b3bf4e/</id>
     <published>2021-12-10T15:02:26.000Z</published>
     <updated>2021-12-10T15:02:26.000Z</updated>
     
@@ -212,8 +236,8 @@
   
   <entry>
     <title>【自动化测试】WEB自动化测试环境搭建</title>
-    <link href="http://mypeng.site/posts/a42e3f6d"/>
-    <id>http://mypeng.site/posts/a42e3f6d</id>
+    <link href="http://mypeng.site/posts/a42e3f6d/"/>
+    <id>http://mypeng.site/posts/a42e3f6d/</id>
     <published>2021-12-08T15:54:16.000Z</published>
     <updated>2021-12-08T15:54:16.000Z</updated>
     
@@ -232,8 +256,8 @@
   
   <entry>
     <title>【自动化测试】python自动化测试环境搭建</title>
-    <link href="http://mypeng.site/posts/undefined"/>
-    <id>http://mypeng.site/posts/undefined</id>
+    <link href="http://mypeng.site/posts/undefined/"/>
+    <id>http://mypeng.site/posts/undefined/</id>
     <published>2021-12-07T10:18:21.000Z</published>
     <updated>2021-12-07T10:18:21.000Z</updated>
     
@@ -252,8 +276,8 @@
   
   <entry>
     <title>【测试理论】做自动化遇到的测试环境差异问题</title>
-    <link href="http://mypeng.site/posts/3e4105ad"/>
-    <id>http://mypeng.site/posts/3e4105ad</id>
+    <link href="http://mypeng.site/posts/3e4105ad/"/>
+    <id>http://mypeng.site/posts/3e4105ad/</id>
     <published>2021-12-02T14:11:17.000Z</published>
     <updated>2021-12-02T14:11:17.000Z</updated>
     
@@ -274,8 +298,8 @@
   
   <entry>
     <title>【FLAG】2021年愿景</title>
-    <link href="http://mypeng.site/posts/5a17eb30"/>
-    <id>http://mypeng.site/posts/5a17eb30</id>
+    <link href="http://mypeng.site/posts/5a17eb30/"/>
+    <id>http://mypeng.site/posts/5a17eb30/</id>
     <published>2021-12-02T14:00:00.000Z</published>
     <updated>2021-12-02T14:00:00.000Z</updated>
     
@@ -296,8 +320,8 @@
   
   <entry>
     <title>【测试理论】什么是Topic</title>
-    <link href="http://mypeng.site/posts/3457ed69"/>
-    <id>http://mypeng.site/posts/3457ed69</id>
+    <link href="http://mypeng.site/posts/3457ed69/"/>
+    <id>http://mypeng.site/posts/3457ed69/</id>
     <published>2021-12-01T14:00:00.000Z</published>
     <updated>2021-12-01T14:00:00.000Z</updated>
     
@@ -318,8 +342,8 @@
   
   <entry>
     <title>【博客搭建】HEXO踩坑指南</title>
-    <link href="http://mypeng.site/posts/3447554d"/>
-    <id>http://mypeng.site/posts/3447554d</id>
+    <link href="http://mypeng.site/posts/3447554d/"/>
+    <id>http://mypeng.site/posts/3447554d/</id>
     <published>2021-11-30T14:00:00.000Z</published>
     <updated>2021-11-30T14:00:00.000Z</updated>
     
@@ -340,8 +364,8 @@
   
   <entry>
     <title>ADB常用命令及其用法大全</title>
-    <link href="http://mypeng.site/posts/3447541d"/>
-    <id>http://mypeng.site/posts/3447541d</id>
+    <link href="http://mypeng.site/posts/3447541d/"/>
+    <id>http://mypeng.site/posts/3447541d/</id>
     <published>2021-11-28T14:33:53.000Z</published>
     <updated>2021-11-28T14:33:53.000Z</updated>
     
@@ -362,8 +386,8 @@
   
   <entry>
     <title>jdk安装和配置环境变量</title>
-    <link href="http://mypeng.site/posts/54eecc7d"/>
-    <id>http://mypeng.site/posts/54eecc7d</id>
+    <link href="http://mypeng.site/posts/54eecc7d/"/>
+    <id>http://mypeng.site/posts/54eecc7d/</id>
     <published>2021-05-26T12:51:29.000Z</published>
     <updated>2021-05-26T12:51:29.000Z</updated>
     
@@ -382,8 +406,8 @@
   
   <entry>
     <title>【接口测试】postman做接口测试04-常见类型接口请求</title>
-    <link href="http://mypeng.site/posts/be476180"/>
-    <id>http://mypeng.site/posts/be476180</id>
+    <link href="http://mypeng.site/posts/be476180/"/>
+    <id>http://mypeng.site/posts/be476180/</id>
     <published>2021-03-27T12:38:24.000Z</published>
     <updated>2021-03-27T12:38:24.000Z</updated>
     
@@ -406,36 +430,12 @@
   
   <entry>
     <title>【接口测试】postman做接口测试03-常见类型接口请求</title>
-    <link href="http://mypeng.site/posts/66841aa6"/>
-    <id>http://mypeng.site/posts/66841aa6</id>
+    <link href="http://mypeng.site/posts/66841aa6/"/>
+    <id>http://mypeng.site/posts/66841aa6/</id>
     <published>2021-03-20T12:18:17.000Z</published>
     <updated>2021-03-20T12:18:17.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在做接口测试时，我们经常遇到以下4种类型的接口，分别是查询参数接口，表单类型的接口，支持文件上传的接口以及json类型的接口 。那么这些类型的接口在postman如何去请求呢 ？</p><h2 id="一、查询参数的接口请求"><a href="#一、查询参数的接口请求" class="headerlink" title="一、查询参数的接口请求"></a>一、查询参数的接口请求</h2><h4 id="1-什么是查询参数"><a href="#1-什么是查询参数" class="headerlink" title="1. 什么是查询参数?"></a>1. 什么是查询参数?</h4><blockquote><p>所谓的查询参数，其实就是URL地址中问号（?）后面的部分就叫查询参数</p></blockquote><p>比如：<a href="http://cx.shouji.360.cn/phonearea.php?number=13012345678" target="_blank" rel="noopener">http://cx.shouji.360.cn/phonearea.php?number=13012345678</a> 。在这个接口中，查询参数就是:number=13012345678 。而这一部分是由有键值对组成，格式为：key1=value1&amp;key2=value2, 如果有多组键值对，需要用&amp;隔开 。</p><h4 id="2-postman如何请求"><a href="#2-postman如何请求" class="headerlink" title="2. postman如何请求?"></a>2. postman如何请求?</h4><ol><li><p>在postman中实现这类接口请求非常简单，一般就需要明确俩个参数即可，一个是请求方法，一个请求地址。</p></li><li><p>针对上面的那个接口，地址已经给出 ，而它的请求方法是get 。那么在postman中只需要把这俩个参数填写上即可请求 。</p></li></ol><h4 id="3-具体实现步骤："><a href="#3-具体实现步骤：" class="headerlink" title="3. 具体实现步骤："></a>3. 具体实现步骤：</h4><ol><li><p>打开postman，新建一个请求。</p></li><li><p>在请求方法中选择请求方法：GET,因为在postman中默认的请求方法就是GET,所以这一步可以忽略</p></li><li><p>接口URL中输入地址，点击Send按钮就发送请求了 。</p></li></ol><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414104224746.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><blockquote><p>说明：查询参数的URL一般直接拷贝到输入的URL地址栏中就可以了，当然也可以把查询参数在Params中输入，俩者的效果是一样的 。</p></blockquote><h2 id="二、json类型的接口请求"><a href="#二、json类型的接口请求" class="headerlink" title="二、json类型的接口请求"></a>二、json类型的接口请求</h2><h4 id="1-什么是文件请求？"><a href="#1-什么是文件请求？" class="headerlink" title="1. 什么是文件请求？"></a>1. 什么是文件请求？</h4><blockquote><p>json类型的请求参数是接口测试中最常见的一种情况了 ，常用于创建活动&amp;商品等， 它的请求体类型为json,我们来看下这个请求报文 。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">POST http:&#x2F;&#x2F;xxx&#x2F;api&#x2F;sys&#x2F;login HTTP&#x2F;1.1</span><br><span class="line">Content-Type: application&#x2F;json;charset&#x3D;UTF-8</span><br><span class="line"></span><br><span class="line">&#123;&quot;account&quot;:&quot;root&quot;,&quot;password&quot;:&quot;123456&quot;&#125;</span><br></pre></td></tr></table></figure><p>根据以上报文，我们可以分析出，我们在postman只需要填写四个参数即可，具体如下：</p><p>请求方法：POST<br>请求地址：<a href="http://xxx/api/sys/login" target="_blank" rel="noopener">http://xxx/api/sys/login</a><br>请求体类型：json<br>请求体数据：{“account”:”root”,”password”:”123456”}</p><h4 id="2-实现步骤："><a href="#2-实现步骤：" class="headerlink" title="2. 实现步骤："></a>2. 实现步骤：</h4><ol><li><p>打开postman，新建一个请求 。</p></li><li><p>在请求中设置以上四个参数，点击Send按钮。</p></li><li><p>查看响应数据。</p></li></ol><blockquote><p>注意：在postman中设置请求体类型，需要选择body-&gt; raw -JSON</p></blockquote><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414104923196.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
-    
-    
-    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【接口测试】postman做接口测试02-发送第一个请求</title>
-    <link href="http://mypeng.site/posts/8a00d2ea"/>
-    <id>http://mypeng.site/posts/8a00d2ea</id>
-    <published>2021-03-13T15:30:00.000Z</published>
-    <updated>2021-03-13T15:30:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-界面导航说明"><a href="#1-界面导航说明" class="headerlink" title="1.界面导航说明"></a>1.界面导航说明</h2><p>在使用postman发送请求前，我们先来看下postman的主界面。来简单的了解下这款工具的主要功能 。</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200413213052761.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><h2 id="2-发送第一个请求"><a href="#2-发送第一个请求" class="headerlink" title="2.发送第一个请求"></a>2.发送第一个请求</h2><p>打开postman，点击+加号打开一个新的请求页。</p><p>​    在请求的URL中输入请求地址：<a href="http://www.weather.com.cn/data/sk/101010100.html" target="_blank" rel="noopener">http://www.weather.com.cn/data/sk/101010100.html</a></p><p>​    点击Send按钮，这时就可以在下部的窗格中看到来自服务器的json响应数据</p><p>  <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200413213338723.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p>]]></content>
     
     
       
