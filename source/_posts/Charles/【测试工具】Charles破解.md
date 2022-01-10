@@ -3,7 +3,7 @@ title: 【测试工具】Charles破解
 author: 夏见°
 abbrlink: ea42950b
 date: 2022-01-01 22:50:55
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/1.png
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/cover-01/1.png
 tags:
   - Charles
 categories:

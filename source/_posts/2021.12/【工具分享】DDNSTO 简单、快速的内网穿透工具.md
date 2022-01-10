@@ -1,7 +1,7 @@
 ---
 title: 【工具分享】DDNSTO 简单、快速的内网穿透工具
 abbrlink: f6c5d65f
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/5.png
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/cover-01/5.png
 date: 2021-12-21 00:07:00
 tags:
 ---

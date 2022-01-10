@@ -49,6 +49,6 @@ $('.copyright').html('©2020 <i id="heartbeat" class="fa fa-heartbeat"></i> By �
 
 // 添加八毛卡通人物
 /*右下角添加卡通人物*/
-var bamao = '<i class="fas fa-arrow-up" style ="padding:8px" ></i><img style="max-width: 234%;transform: translate(-70px,-65px);" src="https://gitee.com/XuePengJu/PictureDependency/raw/main/gif/20200629182853.gif" title="回到顶部" data-ll-status="loaded" class="loaded">';
+var bamao = '<i class="fas fa-arrow-up" style ="padding:8px" ></i><img style="max-width: 234%;transform: translate(-70px,-65px);" src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/gif/20200629182853.gif" title="回到顶部" data-ll-status="loaded" class="loaded">';
 /*添加到返回顶部按钮下*/
 document.getElementById("go-up").innerHTML = bamao

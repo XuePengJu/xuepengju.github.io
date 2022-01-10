@@ -4,8 +4,8 @@ tags:
 	- Hexo
 katex: true
 sticky: 999
-top_img: https://gitee.com/XuePengJu/PictureDependency/raw/main/top_img/1.jpg
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/2.jpg
+top_img: https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/top_img/1.jpg
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/cover-01/2.jpg
 abbrlink: 50a2b841
 date: 2020-07-22 17:43:46
 ---

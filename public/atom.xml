@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-09T07:32:32.000Z</updated>
+  <updated>2022-01-10T14:33:29.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【接口测试】postman做接口测试05-响应数据解析</title>
+    <link href="http://mypeng.site/posts/9656df9f/"/>
+    <id>http://mypeng.site/posts/9656df9f/</id>
+    <published>2022-01-10T14:33:29.000Z</published>
+    <updated>2022-01-10T14:33:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="什么是返回？"><a href="#什么是返回？" class="headerlink" title="什么是返回？"></a>什么是返回？</h2><p>响应数据是发送请求后经过服务器处理后返回的结果，响应是由三部分组成，分别是状态行、响应头、响应体。我们来看下<a href="https://so.csdn.net/so/search?q=postman" target="_blank" rel="noopener">postman</a>的响应数据展示 </p><p><img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/postman%E5%81%9A%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%9505-001.png" alt="百度搜索"></p><p>在postman中的响应数据展示：<br>状态行：Status：200 OK<br>响应头：Headers + Cookies，需要注意的是Cookies是包含在响应头中的，但是为了明显，工具会分开显示<br>响应体：Body</p><h2 id="返回测试什么？"><a href="#返回测试什么？" class="headerlink" title="返回测试什么？"></a>返回测试什么？</h2><p>那么这些数据对我们做接口测试有什么作用呢 ？<br>Body和Status是我们做接口测试的重点，一般来说我们都会验证响应体中的数据和响应状态码<br>Test Results 是我们编写断言后，可以查看断言的执行结果 ，所以这个对我们也很有用 。<br>Time 和Size 是我们做性能测试时，可以根据这俩个参数来对所测接口的性能做一个简单的判断。</p><h2 id="返回里有什么？"><a href="#返回里有什么？" class="headerlink" title="返回里有什么？"></a>返回里有什么？</h2><p>接下来我们再来关注下Body中的几个显示主题，分别是：Pretty，Raw，Preview .<br><img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/postman%E5%81%9A%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%9505-002.png" alt="百度搜索"></p><p>Pretty:翻译成中文就是漂亮 ， 也就是说返回的Body数据在这个标签中查看 ，都是经过格式化的，格式化后的数据看起来更加直观，所以postman默认展示的也是这个选项。比如返回html页面，它会经过格式化成HTML格式后展示，比如返回json，那么也会格式化成json格式展示 。</p><p>需要说明的是，我们所测的接口多会返回json,这时我们看json数据时，只需要点击HTML后的小三角，选择JSON即可。</p><p>Raw：翻译成中文未经过加工的，也就是原始数据 ，原始数据一般都是本文格式的，未经过格式化处理的，一般在抓包工具中都有这个选项 。</p><p>Preview：翻译成中文就是预览，这个选项一般对返回HTML的页面效果特别明显，如请求百度后返回结果，点击这个选项后就直接能查看到的页面 ，如下图 。同时这个选项和浏览器抓包中的Preview也是一样的 。<br><img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/postman%E5%81%9A%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%9505-003.png" alt="百度搜索"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
+    
+    
+    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
+    
+  </entry>
   
   <entry>
     <title>【01】Shell特殊位置变量</title>
@@ -412,30 +436,6 @@
     <updated>2021-03-27T12:38:24.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>接下来我们介绍俩种表单 ，分别是：application/x-www-form-urlencoded和multipart/form-data。它们都支持表单请求，所不同的是后一种支持上传文件，而前一种只支持表单 。</p><h2 id="三、表单类型的请求"><a href="#三、表单类型的请求" class="headerlink" title="三、表单类型的请求"></a>三、表单类型的请求</h2><h4 id="1-什么是表单-？"><a href="#1-什么是表单-？" class="headerlink" title="1. 什么是表单 ？"></a>1. 什么是表单 ？</h4><blockquote><p>简单理解就是在请求头中查看Content-Type，它的值如果是:application/x-www-form-urlencoded .那么就说明客户端提交的数据是以表单形式提交的</p></blockquote><p>我们都知道，在发送HTTP请求的时候，一个请求中一般包含三个部分，分别是请求行，请求头，请求体 。不同的接口，请求体的数据类型是不一样的，比较常见的一种就是表单类型，见下图</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414110309980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><h4 id="2-postman中如何请求？"><a href="#2-postman中如何请求？" class="headerlink" title="2. postman中如何请求？"></a>2. postman中如何请求？</h4><p>在postman请求上图的接口，我们只需要填写四个参数，分别是：</p><p>请求方法：POST<br>请求URL：<a href="http://localhost/index.php?m=Home&amp;c=User&amp;a=do_login&amp;t=0.21942974229794432" target="_blank" rel="noopener">http://localhost/index.php?m=Home&amp;c=User&amp;a=do_login&amp;t=0.21942974229794432</a><br>请求头：Content-Type：application/x-www-form-urlencoded<br>请求体： username=13088888888&amp;password=123456&amp;verify_code=8888</p><h4 id="3-实现步骤："><a href="#3-实现步骤：" class="headerlink" title="3. 实现步骤："></a>3. 实现步骤：</h4><ol><li>打开postman，新建一个请求 。</li><li>在请求中设置以上四个参数，点击Send按钮。</li><li>在postman中设置请求体类型为，需要选择body-&gt; x-www-form-urlencoded</li><li>查看响应数据。</li></ol><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414110543350.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><h2 id="四、支持上传文件的表单请求"><a href="#四、支持上传文件的表单请求" class="headerlink" title="四、支持上传文件的表单请求"></a>四、支持上传文件的表单请求</h2><h4 id="1-什么是文件请求？"><a href="#1-什么是文件请求？" class="headerlink" title="1. 什么是文件请求？"></a>1. 什么是文件请求？</h4><p>在做接口测试时，也会遇到需要上传文件的接口，比如微信的更新头像。这就需要另外一种表单的支持：multipart/form-data。这种类型的表单既支持上面类型的表单请求，同时支持上传文件。 它的请求报文往往是这样的。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">POST http:&#x2F;&#x2F;localhost&#x2F;index.php&#x2F;home&#x2F;Uploadify&#x2F;imageUp&#x2F;savepath&#x2F;head_pic&#x2F;pictitle&#x2F;banner&#x2F;dir&#x2F;images.html HTTP&#x2F;1.1</span><br><span class="line">Content-Type: multipart&#x2F;form-data</span><br><span class="line">file&#x3D;a1.jpg</span><br></pre></td></tr></table></figure><p>这种类型的接口，在postman中该如何请求呢 ？ 我们先分析需要填写的参数 。<br>请求方法：POST<br>请求URL：<a href="http://localhost/index.php/home/Uploadify/imageUp/savepath/head_pic/pictitle/banner/dir/images.html" target="_blank" rel="noopener">http://localhost/index.php/home/Uploadify/imageUp/savepath/head_pic/pictitle/banner/dir/images.html</a><br>请求类型：multipart/form-data<br>请求体：file=a1.jpg</p><h4 id="2-实现步骤："><a href="#2-实现步骤：" class="headerlink" title="2. 实现步骤："></a>2. 实现步骤：</h4><ol><li><p>打开postman，新建一个请求 。</p></li><li><p>在请求中设置以上四个参数，点击Send按钮。</p></li><li><p>注意：在postman中设置请求体类型，需要选择body-&gt; form-data 。</p></li><li><p>file中要选择File类型，然后上传本地的文件 。</p></li><li><p>查看响应数据。</p><p><img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414111439455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p></li></ol><blockquote><p>总结 ，以上四种类型的接口就是我们常见的接口请求，简单的来说，其实就是在Body中分别选择form-data(支持上传文件)，x-www-form-urlencoded(表单),raw-json（json）。最后填写响应的请求数据即可 。</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
-    
-    
-    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【接口测试】postman做接口测试03-常见类型接口请求</title>
-    <link href="http://mypeng.site/posts/66841aa6/"/>
-    <id>http://mypeng.site/posts/66841aa6/</id>
-    <published>2021-03-20T12:18:17.000Z</published>
-    <updated>2021-03-20T12:18:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在做接口测试时，我们经常遇到以下4种类型的接口，分别是查询参数接口，表单类型的接口，支持文件上传的接口以及json类型的接口 。那么这些类型的接口在postman如何去请求呢 ？</p><h2 id="一、查询参数的接口请求"><a href="#一、查询参数的接口请求" class="headerlink" title="一、查询参数的接口请求"></a>一、查询参数的接口请求</h2><h4 id="1-什么是查询参数"><a href="#1-什么是查询参数" class="headerlink" title="1. 什么是查询参数?"></a>1. 什么是查询参数?</h4><blockquote><p>所谓的查询参数，其实就是URL地址中问号（?）后面的部分就叫查询参数</p></blockquote><p>比如：<a href="http://cx.shouji.360.cn/phonearea.php?number=13012345678" target="_blank" rel="noopener">http://cx.shouji.360.cn/phonearea.php?number=13012345678</a> 。在这个接口中，查询参数就是:number=13012345678 。而这一部分是由有键值对组成，格式为：key1=value1&amp;key2=value2, 如果有多组键值对，需要用&amp;隔开 。</p><h4 id="2-postman如何请求"><a href="#2-postman如何请求" class="headerlink" title="2. postman如何请求?"></a>2. postman如何请求?</h4><ol><li><p>在postman中实现这类接口请求非常简单，一般就需要明确俩个参数即可，一个是请求方法，一个请求地址。</p></li><li><p>针对上面的那个接口，地址已经给出 ，而它的请求方法是get 。那么在postman中只需要把这俩个参数填写上即可请求 。</p></li></ol><h4 id="3-具体实现步骤："><a href="#3-具体实现步骤：" class="headerlink" title="3. 具体实现步骤："></a>3. 具体实现步骤：</h4><ol><li><p>打开postman，新建一个请求。</p></li><li><p>在请求方法中选择请求方法：GET,因为在postman中默认的请求方法就是GET,所以这一步可以忽略</p></li><li><p>接口URL中输入地址，点击Send按钮就发送请求了 。</p></li></ol><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414104224746.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><blockquote><p>说明：查询参数的URL一般直接拷贝到输入的URL地址栏中就可以了，当然也可以把查询参数在Params中输入，俩者的效果是一样的 。</p></blockquote><h2 id="二、json类型的接口请求"><a href="#二、json类型的接口请求" class="headerlink" title="二、json类型的接口请求"></a>二、json类型的接口请求</h2><h4 id="1-什么是文件请求？"><a href="#1-什么是文件请求？" class="headerlink" title="1. 什么是文件请求？"></a>1. 什么是文件请求？</h4><blockquote><p>json类型的请求参数是接口测试中最常见的一种情况了 ，常用于创建活动&amp;商品等， 它的请求体类型为json,我们来看下这个请求报文 。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">POST http:&#x2F;&#x2F;xxx&#x2F;api&#x2F;sys&#x2F;login HTTP&#x2F;1.1</span><br><span class="line">Content-Type: application&#x2F;json;charset&#x3D;UTF-8</span><br><span class="line"></span><br><span class="line">&#123;&quot;account&quot;:&quot;root&quot;,&quot;password&quot;:&quot;123456&quot;&#125;</span><br></pre></td></tr></table></figure><p>根据以上报文，我们可以分析出，我们在postman只需要填写四个参数即可，具体如下：</p><p>请求方法：POST<br>请求地址：<a href="http://xxx/api/sys/login" target="_blank" rel="noopener">http://xxx/api/sys/login</a><br>请求体类型：json<br>请求体数据：{“account”:”root”,”password”:”123456”}</p><h4 id="2-实现步骤："><a href="#2-实现步骤：" class="headerlink" title="2. 实现步骤："></a>2. 实现步骤：</h4><ol><li><p>打开postman，新建一个请求 。</p></li><li><p>在请求中设置以上四个参数，点击Send按钮。</p></li><li><p>查看响应数据。</p></li></ol><blockquote><p>注意：在postman中设置请求体类型，需要选择body-&gt; raw -JSON</p></blockquote><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414104923196.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p>]]></content>
     
     
       

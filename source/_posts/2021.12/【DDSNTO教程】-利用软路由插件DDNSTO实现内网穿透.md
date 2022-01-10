@@ -2,7 +2,7 @@
 title: 【DDSNTO教程】-利用软路由插件DDNSTO实现内网穿透
 abbrlink: 96032b58
 date: 2021-12-21 23:21:13
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/4.png
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/cover-01/4.png
 tags:
   - 博客
 ---

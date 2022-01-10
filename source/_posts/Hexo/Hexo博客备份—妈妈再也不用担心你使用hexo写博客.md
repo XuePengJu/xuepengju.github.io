@@ -4,7 +4,7 @@ tags:
   - Hexo
 categories:
   - Hexo
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/cover-01/2.png
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/cover-01/2.png
 author: 夏见°
 abbrlink: a3886b70
 date: 2022-01-01 17:09:02
