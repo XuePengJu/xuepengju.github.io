@@ -1,8 +1,8 @@
 ---
 title: 有什么想和我说的吗
 type: bbs
-top_img: https://picsum.photos/1080/366?random=1
 date: nodate
+top_img: https://picsum.photos/1080/366?random=1
 ---
 
 ## <center>有什么想说的吗？</center>

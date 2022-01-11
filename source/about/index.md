@@ -2,7 +2,6 @@
 title: 关于我的
 date: 2020-07-25 20:34:27
 type: about
-top_img: https://picsum.photos/1080/366?random=1
 ---
 
 ## 关于博主
