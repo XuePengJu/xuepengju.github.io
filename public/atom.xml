@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-10T14:33:29.000Z</updated>
+  <updated>2022-01-11T15:39:50.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【接口测试】postman做接口测试06-用例管理（Collection）</title>
+    <link href="http://mypeng.site/posts/b8685e49/"/>
+    <id>http://mypeng.site/posts/b8685e49/</id>
+    <published>2022-01-11T15:39:50.000Z</published>
+    <updated>2022-01-11T15:39:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="怎么解决用例满天飞的局面？"><a href="#怎么解决用例满天飞的局面？" class="headerlink" title="怎么解决用例满天飞的局面？"></a>怎么解决用例满天飞的局面？</h2><p>当我们对一个或多个系统中的很多用例进行维护时，首先想到的就是对用例进行分类管理，同时我们还要对这些做回归测试 。那么postman也提供了这样一个功能，就是Collection 。通过这个Collection就可以满足我们的上面说的需求。</p><h3 id="先对Collection功能的使用场景做个简单总结-。"><a href="#先对Collection功能的使用场景做个简单总结-。" class="headerlink" title="先对Collection功能的使用场景做个简单总结 。"></a>先对Collection功能的使用场景做个简单总结 。</h3><h4 id="用例分类管理，方便后期维护"><a href="#用例分类管理，方便后期维护" class="headerlink" title="用例分类管理，方便后期维护"></a>用例分类管理，方便后期维护</h4><h4 id="可以进行批量用例回归测试-。"><a href="#可以进行批量用例回归测试-。" class="headerlink" title="可以进行批量用例回归测试 。"></a>可以进行批量用例回归测试 。</h4><h2 id="那么Collection是如何去管理用例的呢-？"><a href="#那么Collection是如何去管理用例的呢-？" class="headerlink" title="那么Collection是如何去管理用例的呢 ？"></a>那么Collection是如何去管理用例的呢 ？</h2><p>先想象我们要测试一个系统，系统下有多个模块，每个模块下有很多的被测接口用例 。那么基于这个场景，我们来通过Collection来进行实现：</p><h4 id="1-点击Collection，点击-New-Collection，在弹出的输入框中输入Collection名称（这个就可以理解为所测试的系统）"><a href="#1-点击Collection，点击-New-Collection，在弹出的输入框中输入Collection名称（这个就可以理解为所测试的系统）" class="headerlink" title="1. 点击Collection，点击+New Collection，在弹出的输入框中输入Collection名称（这个就可以理解为所测试的系统）"></a>1. 点击Collection，点击+New Collection，在弹出的输入框中输入Collection名称（这个就可以理解为所测试的系统）</h4><p><img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/06-001.png" alt="create"></p><h4 id="2-选中新建的Collection右键，点击Add-Folder-，在弹出对话框中输入文件夹名称（这个就可以理解为系统中的模块）"><a href="#2-选中新建的Collection右键，点击Add-Folder-，在弹出对话框中输入文件夹名称（这个就可以理解为系统中的模块）" class="headerlink" title="2. 选中新建的Collection右键，点击Add Folder ，在弹出对话框中输入文件夹名称（这个就可以理解为系统中的模块）"></a>2. 选中新建的Collection右键，点击Add Folder ，在弹出对话框中输入文件夹名称（这个就可以理解为系统中的模块）</h4><p>   <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/06-002.png" alt="create"></p><h4 id="3-选中新建的Folder，点击Add-Request-，在弹出的对话框中输入请求名称，这个就是我们所测试的接口，也可以理解为测试用例-。"><a href="#3-选中新建的Folder，点击Add-Request-，在弹出的对话框中输入请求名称，这个就是我们所测试的接口，也可以理解为测试用例-。" class="headerlink" title="3. 选中新建的Folder，点击Add Request ，在弹出的对话框中输入请求名称，这个就是我们所测试的接口，也可以理解为测试用例 。"></a>3. 选中新建的Folder，点击Add Request ，在弹出的对话框中输入请求名称，这个就是我们所测试的接口，也可以理解为测试用例 。</h4><p><img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/06-003.png" alt="create"></p><p>那么通过以上三个步骤，达到的效果就是如图所示：<br><img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/06-004.png" alt="create"></p><p>总结，通过上面的操作，我们实现了一个最简单的demo模型。但实际上，这个Collection的用处非常广，很多功能的使用都必须先创建Collection，比如用例的批量执行，Mock ，接口文档等功能 。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
+    
+    
+    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
+    
+  </entry>
   
   <entry>
     <title>【接口测试】postman做接口测试05-响应数据解析</title>
@@ -425,30 +449,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>【接口测试】postman做接口测试04-常见类型接口请求</title>
-    <link href="http://mypeng.site/posts/be476180/"/>
-    <id>http://mypeng.site/posts/be476180/</id>
-    <published>2021-03-27T12:38:24.000Z</published>
-    <updated>2021-03-27T12:38:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>接下来我们介绍俩种表单 ，分别是：application/x-www-form-urlencoded和multipart/form-data。它们都支持表单请求，所不同的是后一种支持上传文件，而前一种只支持表单 。</p><h2 id="三、表单类型的请求"><a href="#三、表单类型的请求" class="headerlink" title="三、表单类型的请求"></a>三、表单类型的请求</h2><h4 id="1-什么是表单-？"><a href="#1-什么是表单-？" class="headerlink" title="1. 什么是表单 ？"></a>1. 什么是表单 ？</h4><blockquote><p>简单理解就是在请求头中查看Content-Type，它的值如果是:application/x-www-form-urlencoded .那么就说明客户端提交的数据是以表单形式提交的</p></blockquote><p>我们都知道，在发送HTTP请求的时候，一个请求中一般包含三个部分，分别是请求行，请求头，请求体 。不同的接口，请求体的数据类型是不一样的，比较常见的一种就是表单类型，见下图</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414110309980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><h4 id="2-postman中如何请求？"><a href="#2-postman中如何请求？" class="headerlink" title="2. postman中如何请求？"></a>2. postman中如何请求？</h4><p>在postman请求上图的接口，我们只需要填写四个参数，分别是：</p><p>请求方法：POST<br>请求URL：<a href="http://localhost/index.php?m=Home&amp;c=User&amp;a=do_login&amp;t=0.21942974229794432" target="_blank" rel="noopener">http://localhost/index.php?m=Home&amp;c=User&amp;a=do_login&amp;t=0.21942974229794432</a><br>请求头：Content-Type：application/x-www-form-urlencoded<br>请求体： username=13088888888&amp;password=123456&amp;verify_code=8888</p><h4 id="3-实现步骤："><a href="#3-实现步骤：" class="headerlink" title="3. 实现步骤："></a>3. 实现步骤：</h4><ol><li>打开postman，新建一个请求 。</li><li>在请求中设置以上四个参数，点击Send按钮。</li><li>在postman中设置请求体类型为，需要选择body-&gt; x-www-form-urlencoded</li><li>查看响应数据。</li></ol><p> <img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414110543350.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p><h2 id="四、支持上传文件的表单请求"><a href="#四、支持上传文件的表单请求" class="headerlink" title="四、支持上传文件的表单请求"></a>四、支持上传文件的表单请求</h2><h4 id="1-什么是文件请求？"><a href="#1-什么是文件请求？" class="headerlink" title="1. 什么是文件请求？"></a>1. 什么是文件请求？</h4><p>在做接口测试时，也会遇到需要上传文件的接口，比如微信的更新头像。这就需要另外一种表单的支持：multipart/form-data。这种类型的表单既支持上面类型的表单请求，同时支持上传文件。 它的请求报文往往是这样的。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">POST http:&#x2F;&#x2F;localhost&#x2F;index.php&#x2F;home&#x2F;Uploadify&#x2F;imageUp&#x2F;savepath&#x2F;head_pic&#x2F;pictitle&#x2F;banner&#x2F;dir&#x2F;images.html HTTP&#x2F;1.1</span><br><span class="line">Content-Type: multipart&#x2F;form-data</span><br><span class="line">file&#x3D;a1.jpg</span><br></pre></td></tr></table></figure><p>这种类型的接口，在postman中该如何请求呢 ？ 我们先分析需要填写的参数 。<br>请求方法：POST<br>请求URL：<a href="http://localhost/index.php/home/Uploadify/imageUp/savepath/head_pic/pictitle/banner/dir/images.html" target="_blank" rel="noopener">http://localhost/index.php/home/Uploadify/imageUp/savepath/head_pic/pictitle/banner/dir/images.html</a><br>请求类型：multipart/form-data<br>请求体：file=a1.jpg</p><h4 id="2-实现步骤："><a href="#2-实现步骤：" class="headerlink" title="2. 实现步骤："></a>2. 实现步骤：</h4><ol><li><p>打开postman，新建一个请求 。</p></li><li><p>在请求中设置以上四个参数，点击Send按钮。</p></li><li><p>注意：在postman中设置请求体类型，需要选择body-&gt; form-data 。</p></li><li><p>file中要选择File类型，然后上传本地的文件 。</p></li><li><p>查看响应数据。</p><p><img src= "/img/loading1.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200414111439455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZlbnVzdGVjaDA5MTk=,size_16,color_FFFFFF,t_70" alt="img"> </p></li></ol><blockquote><p>总结 ，以上四种类型的接口就是我们常见的接口请求，简单的来说，其实就是在Body中分别选择form-data(支持上传文件)，x-www-form-urlencoded(表单),raw-json（json）。最后填写响应的请求数据即可 。</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
-    
-    
-    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
     
   </entry>
   

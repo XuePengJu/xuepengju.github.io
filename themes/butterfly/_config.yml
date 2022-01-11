@@ -142,7 +142,7 @@ tag_img:  img/banner/4.jpg
 
 # the banner image of category page
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:  img/banner/4.jpeg
+category_img:  img/banner/4.jpg
 
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)

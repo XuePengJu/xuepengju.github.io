@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mypeng.site/posts/b8685e49/</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mypeng.site/posts/9656df9f/</loc>
     
     <lastmod>2022-01-10</lastmod>
@@ -426,7 +435,7 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/Charles/</loc>
+    <loc>http://mypeng.site/tags/Hexo/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -440,7 +449,7 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/Hexo/</loc>
+    <loc>http://mypeng.site/tags/Charles/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -470,7 +479,7 @@
 
   
   <url>
-    <loc>http://mypeng.site/categories/Charles/</loc>
+    <loc>http://mypeng.site/categories/Hexo/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -484,7 +493,7 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/categories/Hexo/</loc>
+    <loc>http://mypeng.site/categories/Charles/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
