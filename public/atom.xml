@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-11T15:39:50.000Z</updated>
+  <updated>2022-01-12T15:05:36.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【接口测试】postman做接口测试07-批量执行用例</title>
+    <link href="http://mypeng.site/posts/c4b6dbb9/"/>
+    <id>http://mypeng.site/posts/c4b6dbb9/</id>
+    <published>2022-01-12T15:05:36.000Z</published>
+    <updated>2022-01-12T15:05:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p> 当我们在一个Collection中编写了很多的接口测试用例，想一起执行这批用例，在postman中是如何操作呢 ？</p></blockquote><h1 id="实现步骤："><a href="#实现步骤：" class="headerlink" title="实现步骤："></a>实现步骤：</h1><h2 id="1-选中一个Collection，点击右三角，在弹出的界面点击RUN"><a href="#1-选中一个Collection，点击右三角，在弹出的界面点击RUN" class="headerlink" title="1. 选中一个Collection，点击右三角，在弹出的界面点击RUN"></a>1. 选中一个Collection，点击右三角，在弹出的界面点击RUN</h2><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/07-001.png" alt="img"> </p><h2 id="2-这是会弹出一个叫Collection-Runner的界面，默认会把Collection中的所有用例选上"><a href="#2-这是会弹出一个叫Collection-Runner的界面，默认会把Collection中的所有用例选上" class="headerlink" title="2. 这是会弹出一个叫Collection Runner的界面，默认会把Collection中的所有用例选上."></a>2. 这是会弹出一个叫Collection Runner的界面，默认会把Collection中的所有用例选上.</h2><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/07-002.png" alt="img"> </p><h2 id="3-点击界面下方的RUN-Collection，就会对Collection选中的所有测试用例运行-。"><a href="#3-点击界面下方的RUN-Collection，就会对Collection选中的所有测试用例运行-。" class="headerlink" title="3. 点击界面下方的RUN Collection，就会对Collection选中的所有测试用例运行 。"></a>3. 点击界面下方的RUN Collection，就会对Collection选中的所有测试用例运行 。</h2><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/07-003.png" alt="img"> </p><h3 id="对上面的几个红框内的功能进行简单说明："><a href="#对上面的几个红框内的功能进行简单说明：" class="headerlink" title="对上面的几个红框内的功能进行简单说明："></a>对上面的几个红框内的功能进行简单说明：</h3><p>断言统计：左上角的俩个0是统计当前Collection中断言成功的执行数和失败的执行数，如果没有编写断言默认都为0 。</p><ul><li><p>Run Summary: 运行结果总览，点击它可以看到每个请求中具体的测试断言详细信息 。</p></li><li><p>Export Result：导出运行结果，默认导出的结果json文件 。</p></li><li><p>Retry: 重新运行，点击它会把该Collection重新运行一遍</p></li><li><p>New：返回到Runner，可以重新选择用例的组合 。</p></li></ul><p>总体来说，这个功能主要是用于对一个Collection中的所有用例或部分用例进行批量运行，已达到手工回归测试的目的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
+    
+    
+    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
+    
+  </entry>
   
   <entry>
     <title>【接口测试】postman做接口测试06-用例管理（Collection）</title>
@@ -429,26 +453,6 @@
     
     
     <category term="博客" scheme="http://mypeng.site/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>jdk安装和配置环境变量</title>
-    <link href="http://mypeng.site/posts/54eecc7d/"/>
-    <id>http://mypeng.site/posts/54eecc7d/</id>
-    <published>2021-05-26T12:51:29.000Z</published>
-    <updated>2021-05-26T12:51:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>学习JAVA，必须得安装一下JDK(java development kit java开发工具包)，配置一下环境就可以学习JAVA了，下面是下载和安装JDK的教程：</p></blockquote><h2 id="1-JDK下载地址："><a href="#1-JDK下载地址：" class="headerlink" title="1.JDK下载地址："></a>1.JDK下载地址：</h2><p><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" rel="noopener">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a></p><p>点开链接你应该看到如下图所示的界面：</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIxODE2ODgy?x-oss-process=image/format,png" alt="这里写图片描述"> </p><h2 id="2-点击上图中箭头所指的地方，会出现下面的这个界面，此时你需要根据你的电脑系统来进行对应的版本进行选择，在选择版本和下载之前你需要首先接收协议，具体界面如下图所示："><a href="#2-点击上图中箭头所指的地方，会出现下面的这个界面，此时你需要根据你的电脑系统来进行对应的版本进行选择，在选择版本和下载之前你需要首先接收协议，具体界面如下图所示：" class="headerlink" title="2.点击上图中箭头所指的地方，会出现下面的这个界面，此时你需要根据你的电脑系统来进行对应的版本进行选择，在选择版本和下载之前你需要首先接收协议，具体界面如下图所示："></a>2.点击上图中箭头所指的地方，会出现下面的这个界面，此时你需要根据你的电脑系统来进行对应的版本进行选择，在选择版本和下载之前你需要首先接收协议，具体界面如下图所示：</h2><h3 id="3-双击以后进行JDK的安装（记得按照第二幅图修改一下安装路径，不要什么东西都安装到系统盘。。。）："><a href="#3-双击以后进行JDK的安装（记得按照第二幅图修改一下安装路径，不要什么东西都安装到系统盘。。。）：" class="headerlink" title="3.双击以后进行JDK的安装（记得按照第二幅图修改一下安装路径，不要什么东西都安装到系统盘。。。）："></a>3.双击以后进行JDK的安装（记得按照第二幅图修改一下安装路径，不要什么东西都安装到系统盘。。。）：</h3><h4 id="（1）双击进行安装界面如下所示："><a href="#（1）双击进行安装界面如下所示：" class="headerlink" title="（1）双击进行安装界面如下所示："></a>（1）双击进行安装界面如下所示：</h4><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIyMDI3NzMy?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjMwMTM2NDcy?x-oss-process=image/format,png" alt="这里写图片描述"></p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjMwMTQ5MzQ3?x-oss-process=image/format,png" alt="这里写图片描述"></p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjMwMjAwMDgy?x-oss-process=image/format,png" alt="这里写图片描述"></p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjMwMjEyMjM3?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>  <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjMwMjIyNTY1?x-oss-process=image/format,png" alt="这里写图片描述"></p><h2 id="4-安装完成后，需要进行环境变量的配置，右键我的电脑—属性—-高级系统设置就会看到下面的界面："><a href="#4-安装完成后，需要进行环境变量的配置，右键我的电脑—属性—-高级系统设置就会看到下面的界面：" class="headerlink" title="4.安装完成后，需要进行环境变量的配置，右键我的电脑—属性—-高级系统设置就会看到下面的界面："></a>4.安装完成后，需要进行环境变量的配置，右键我的电脑—属性—-高级系统设置就会看到下面的界面：</h2><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIyODUzMTEy?x-oss-process=image/format,png" alt="这里写图片描述"> </p><h2 id="5-点击上图中的环境变量，然后开始环境变量的配置："><a href="#5-点击上图中的环境变量，然后开始环境变量的配置：" class="headerlink" title="5.点击上图中的环境变量，然后开始环境变量的配置："></a>5.点击上图中的环境变量，然后开始环境变量的配置：</h2><h5 id="（1）点击系统变量下面的新建按钮，变量名JAVA-HOME（代表你的JDK安装路径），值对应的是你的JDK的安装路径。"><a href="#（1）点击系统变量下面的新建按钮，变量名JAVA-HOME（代表你的JDK安装路径），值对应的是你的JDK的安装路径。" class="headerlink" title="（1）点击系统变量下面的新建按钮，变量名JAVA_HOME（代表你的JDK安装路径），值对应的是你的JDK的安装路径。"></a>（1）点击系统变量下面的新建按钮，变量名JAVA_HOME（代表你的JDK安装路径），值对应的是你的JDK的安装路径。</h5><p>  <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIzMDE5ODAw?x-oss-process=image/format,png" alt="这里写图片描述"> </p><h5 id="（2）继续在系统变量里面新建一个CLASSPATH变量，其变量值如下图所示："><a href="#（2）继续在系统变量里面新建一个CLASSPATH变量，其变量值如下图所示：" class="headerlink" title="（2）继续在系统变量里面新建一个CLASSPATH变量，其变量值如下图所示："></a>（2）继续在系统变量里面新建一个CLASSPATH变量，其变量值如下图所示：</h5><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIzMjAxMjM4?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>此处需要注意：最前面有一个英文状态下的小圆点。。。。很多初学者在配置环境变量的时候就会跌倒在这个坑里。</p><h5 id="（3）在你的系统变量里面找一个变量名是PATH的变量，需要在它的值域里面追加一段如下的代码："><a href="#（3）在你的系统变量里面找一个变量名是PATH的变量，需要在它的值域里面追加一段如下的代码：" class="headerlink" title="（3）在你的系统变量里面找一个变量名是PATH的变量，需要在它的值域里面追加一段如下的代码："></a>（3）在你的系统变量里面找一个变量名是PATH的变量，需要在它的值域里面追加一段如下的代码：</h5><blockquote><p>%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;</p></blockquote><p>此时你应该在你原有的值域后面追加，记得在原有的值域后面记得添加一个英文状态下的分号。<br>最后点击确定，此时JDK的环境变量配置就完成了。</p><h2 id="6-测试自己所配置的环境变量是否正确"><a href="#6-测试自己所配置的环境变量是否正确" class="headerlink" title="6.测试自己所配置的环境变量是否正确"></a>6.测试自己所配置的环境变量是否正确</h2><p>（1）WINDOWS+R键，输入cmd，进入命令行界面，如下所示：</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIzNzM1MTAw?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>（2）输入java -version命令，可以出现如下图的提示，你可以看你安装的JDK版本。</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjIzOTAxNTA3?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>（3）输入javac命令可以出现如下的提示：</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjI0MDA1ODgy?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>（4）输入java命令就会出现如下图所示的结果</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjI0MTMwMjI2?x-oss-process=image/format,png" alt="这里写图片描述"> </p><h2 id="7-写一段代码可以验证一下"><a href="#7-写一段代码可以验证一下" class="headerlink" title="7.写一段代码可以验证一下"></a>7.写一段代码可以验证一下</h2><h5 id="（1）我在E盘新建了一个文件夹叫javafile，在里面有一个Java文件，名字叫TestJava-java，此时需要注意，你的文件名字后缀一定是-java"><a href="#（1）我在E盘新建了一个文件夹叫javafile，在里面有一个Java文件，名字叫TestJava-java，此时需要注意，你的文件名字后缀一定是-java" class="headerlink" title="（1）我在E盘新建了一个文件夹叫javafile，在里面有一个Java文件，名字叫TestJava.java，此时需要注意，你的文件名字后缀一定是.java"></a>（1）我在E盘新建了一个文件夹叫javafile，在里面有一个Java文件，名字叫TestJava.java，此时需要注意，你的文件名字后缀一定是.java</h5><h5 id="（2）你需要在你的文件里面写下面的代码："><a href="#（2）你需要在你的文件里面写下面的代码：" class="headerlink" title="（2）你需要在你的文件里面写下面的代码："></a>（2）你需要在你的文件里面写下面的代码：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class TestJava&#123;</span><br><span class="line">public static void main(String[] args)&#123;</span><br><span class="line">System.out.println(&quot;I am a  java new learner!&quot;);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="（3）继续windows-r键进入dos命令行，你需要首先进入你java文件所在的目录，然后分别使用javac命令对你的java文件进行编译，然后使用java命令来解析你的javac命令编译的结果，就会如下图所示这样："><a href="#（3）继续windows-r键进入dos命令行，你需要首先进入你java文件所在的目录，然后分别使用javac命令对你的java文件进行编译，然后使用java命令来解析你的javac命令编译的结果，就会如下图所示这样：" class="headerlink" title="（3）继续windows+r键进入dos命令行，你需要首先进入你java文件所在的目录，然后分别使用javac命令对你的java文件进行编译，然后使用java命令来解析你的javac命令编译的结果，就会如下图所示这样："></a>（3）继续windows+r键进入dos命令行，你需要首先进入你java文件所在的目录，然后分别使用javac命令对你的java文件进行编译，然后使用java命令来解析你的javac命令编译的结果，就会如下图所示这样：</h5><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjI0OTQxNzc4?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>此处一定要注意：必须进入文件所在的目录；其次使用javac命令 文件的名字的后面一定要跟着.java的文件后缀；使用java命令时.java后缀可以不用写。<br>当你执行完javac命令如果没有错误提示，说明通过了编译，就会在你的文件目录下生成一个同名的.class文件。</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwNjE4MjI1MjAxNjI5?x-oss-process=image/format,png" alt="这里写图片描述"> </p><p>如果你完成了以上的所有，并且结果显示正确，那么说明你的JDK安装和环境配置都很成功，此时你就可以开始你的JAVA学习了。<br>JDK1.8 API链接：<br><a href="http://docs.oracle.com/javase/8/docs/api/" target="_blank" rel="noopener">http://docs.oracle.com/javase/8/docs/api/</a><br>JAVA tutorials:<br><a href="http://docs.oracle.com/javase/tutorial/" target="_blank" rel="noopener">http://docs.oracle.com/javase/tutorial/</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
     
   </entry>
   
