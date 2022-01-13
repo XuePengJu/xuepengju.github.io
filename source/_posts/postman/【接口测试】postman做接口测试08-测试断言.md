@@ -26,39 +26,39 @@ categories:
 
 # 接下来就让我们了解一些常用断言，还是按响应的组成来划分，分别是状态行，响应头，响应体。
 
-状态行中又包括状态码，状态消息 。在postman也可以对这俩个进行断言
+本次使用公开天气api接口演示「http://doc.tianqiapi.com/」
 
-状态行中的断言：
+
+状态行中又包括状态码，状态消息 。在postman也可以对这俩个进行断言
+## 状态行中的断言：
 
 ### 断言状态码：Status code: code is 200
-
 ```javascript
-pm.test("Status code is 200", function () {
-    pm.response.to.have.status(200);		//这里填写的200是预期结果，实际结果是请求返回结果
-});
+pm.test("断言相应状态码为200", function () {
+    pm.response.to.have.status(200);
+});	
 ```
 ### 断言状态消息：Status code：code name has string
-
 ```javascript
-pm.test("Status code name has string", function () {
-    pm.response.to.have.status("OK");	//断言响应状态消息包含OK
+pm.test("断言响应状态消息包含OK", function () {
+    pm.response.to.have.status("OK");
 });
 ```
-### 响应头中的断言
+## 响应头中的断言
 
-断言响应头中包含：Response headers:Content-Type header check
+### 断言响应头中包含：Response headers:Content-Type header check
 ```javascript
-pm.test("Content-Type is present", function () {
-    pm.response.to.have.header("Content-Type"); //断言响应头存在"Content-Type"
+pm.test("断言响应头存在'Content-Type'", function () {
+    pm.response.to.have.header("Content-Type"); 
 });
 ```
-### 断言响应体(重点)
+## 断言响应体(重点)
 
-断言响应体中包含XXX字符串：Response body:Contains string
+### 断言响应体中包含XXX字符串：Response body:Contains string
 ```javascript
-pm.test("Body matches string", function () {
-    pm.expect(pm.response.text()).to.include("string_you_want_to_search");
-});     
+pm.test("断言返回内容包含该文本", function () {undefined
+    pm.expect(pm.response.text()).to.include("101010100");
+});   
 //注解
 //pm.expect(pm.response.text()).to.include("string")      获取响应文本中包含string
 ```
@@ -74,13 +74,13 @@ pm.test("Body is correct", function () {
 ### 断言响应体(json)中某个键名对应的值：Response body : JSON value check
 
 ```javascript
-pm.test("Your test name", function () {
+pm.test("断言相应城市为北京", function () {
     var jsonData = pm.response.json();
-    pm.expect(jsonData.value).to.eql(100);
+    pm.expect(jsonData.city).to.eql("北京");
 });
 //注解
 //var jsonData = pm.response.json()   获取响应体，以json显示，赋值给jsonData .注意：该响应体必须返会是的json，否则会报错
-//pm.expect(jsonData.value).to.eql(100)  获取jsonData中键名为value的值，然后和100进行比较
+//pm.expect(jsonData.value).to.eql("北京")  获取jsonData中键名为value的值，然后和"北京"进行比较
 ```
 ### 响应时间(一般用于性能测试)
 
