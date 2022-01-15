@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-13T15:48:20.000Z</updated>
+  <updated>2022-01-14T16:39:30.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【接口测试】postman做接口测试09-日志调试</title>
+    <link href="http://mypeng.site/posts/344e3c5b/"/>
+    <id>http://mypeng.site/posts/344e3c5b/</id>
+    <published>2022-01-14T16:39:30.000Z</published>
+    <updated>2022-01-14T16:39:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>在做接口测试时，经常会因为代码写的有问题导致报错，这时通过查看日志就显得非常重要了，postman也提供了这样的功能，它允许我们在脚本中编写打印语句，查看打印的结果 ; 同时也可以查看每个请求的日志信息 。</p></blockquote><h2 id="postman日志用的是什么编程语言？"><a href="#postman日志用的是什么编程语言？" class="headerlink" title="postman日志用的是什么编程语言？"></a>postman日志用的是什么编程语言？</h2><p>在postman中编写日志打印语句使用的是JavaScript，编写的位置可以是Pre-request Script 或Tests标签中。编写打印语句如：console.log(“hello,postman”)</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/09-001.png" alt="img"> </p><h2 id="那么打印的日如何看呢-？"><a href="#那么打印的日如何看呢-？" class="headerlink" title="那么打印的日如何看呢 ？"></a>那么打印的日如何看呢 ？</h2><p>在postman中有俩个入口，第一个入口就是：view-show postman console 。</p><p>第二个入口就是左下角第三个图标 。</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/09-002.png" alt="img"> </p><h3 id="打开的日志界面"><a href="#打开的日志界面" class="headerlink" title="打开的日志界面"></a>打开的日志界面</h3><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/09-003.png" alt="img"> </p><p>这里面有几个比较实用的功能：</p><p>搜索日志：输入URL或者打印的日志就能直接搜索出我们想要的请求和日志，这对我们在众多日志中查找某一条日志是非常方便的 。</p><ul><li>按级别搜索：可以查询log,info,warning,error级别的日志 ，有助于我们更快定位到错误 。</li></ul><ul><li>查看原始报文(Show raw log)：如果习惯看原始请求报文的话，这个功能可能更方便些 。</li></ul><ul><li>隐藏请求(Hide network)：把请求都隐藏掉，只查看输出日志 。</li></ul><p>总之，通过这个功能，我们在请求接口报错时，通过打印响应的日志，就能很轻松的找到问题原因了 。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
+    
+    
+    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
+    
+  </entry>
   
   <entry>
     <title>【公开api接口】字符串加密/解密API接口</title>
@@ -433,28 +457,6 @@
     
     
     <category term="FLAG" scheme="http://mypeng.site/tags/FLAG/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【测试理论】什么是Topic</title>
-    <link href="http://mypeng.site/posts/3457ed69/"/>
-    <id>http://mypeng.site/posts/3457ed69/</id>
-    <published>2021-12-01T14:00:00.000Z</published>
-    <updated>2021-12-01T14:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="什么是Topic"><a href="#什么是Topic" class="headerlink" title="什么是Topic"></a>什么是Topic</h1><p>Topic是消息发布（Pub）者和订阅（Sub）者之间的传输中介。设备可通过Topic实现消息的发送和接收，从而实现服务端与设备端的通信。为方便海量设备基于Topic进行通信，简化授权操作，物联网平台定义了产品Topic类和设备Topic。本文介绍产品和设备Topic的定义、使用和分类。</p><h2 id="Topic定义"><a href="#Topic定义" class="headerlink" title="Topic定义"></a>Topic定义</h2><p>产品Topic类：产品维度的Topic，是同一产品下不同设备的Topic集合。一个Topic类对一个<strong>ProductKey</strong>下所有设备通用。</p><p>以下是Topic类的使用说明：</p><ul><li><p>定义Topic的功能。</p><p>Topic类格式以正斜线（/）进行分层，区分每个类目。例如：<code>/${productKey}/${deviceName}/user/update</code>。</p><p>其中，${productKey}和${deviceName}两个类目为既定类目；后缀和前缀类目用于区分不同功能的消息。</p><ul><li><p>${productKey}</p><p>表示产品的标识符</p><p>ProductKey</p><p>。</p><p>在指定产品的Topic类中，需替换为实际的<strong>ProductKey</strong>值。</p></li><li><p>${deviceName}</p><p>表示设备名称（</p><p>DeviceName</p><p>）。</p><p>在产品Topic类中，${deviceName}是该产品下所有设备的名称变量，不需要替换为实际设备名称。</p></li></ul></li><li><p>定义Topic的操作权限。</p><ul><li><strong>发布</strong>：产品下设备可以往该Topic发布消息。</li><li><strong>订阅</strong>：产品下设备可以订阅该Topic，从而获取消息。</li><li><strong>发布和订阅</strong>：同时具备<strong>发布</strong>和<strong>订阅</strong>的操作权限。</li></ul></li></ul><p>在产品Topic类基础上，使用<code>${productKey}/${deviceName}</code>通配一个唯一的设备，与前缀、后缀类目组成的完整Topic，就是具体的设备Topic。</p><p>设备Topic与产品Topic类格式一致，区别在于Topic类中的变量${deviceName}，在设备Topic中是具体的设备名称（<strong>DeviceName</strong>）。</p><p>例如产品<code>a19mzPZ***</code>下设备<code>device1</code>和<code>device2</code>的具体Topic如下：</p><ul><li><code>/a19mzPZ****/device1/user/update</code>。</li><li><code>/a19mzPZ****/device2/user/update</code>。</li></ul><p>产品Topic类定义的功能和操作权限，会映射到具体的设备Topic。以下是设备Topic的使用说明：</p><ul><li><p>具体的设备Topic可用于消息通信。</p></li><li><p><strong>注意</strong> 在进行上下行通信调试时，请确保指定的Topic具备对应的操作权限。</p></li><li><p>指定的设备Topic只能被指定设备用于消息通信。</p><p>例如，Topic：<code>/a19mzPZ****/device1/user/update</code>归属于设备device1，只能被设备device1用于发布或订阅消息，而不能被设备device2用于发布或订阅消息。</p></li><li><p>您可管控单个设备的消息收发。</p><p>您可在<a href="https://iot.console.aliyun.com/" target="_blank" rel="noopener">物联网平台控制台</a>对应实例下的<strong>设备列表</strong>页面，或在服务端调用<a href="https://help.aliyun.com/document_detail/69602.htm#doc-api-Iot-DisableThing" target="_blank" rel="noopener">DisableThing</a>接口，禁用该设备；或在业务上管控发送给设备的消息。</p></li></ul><blockquote><p>本文来源于：<a href="https://help.aliyun.com/document_detail/73731.html" target="_blank" rel="noopener">https://help.aliyun.com/document_detail/73731.html</a></p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="MQ" scheme="http://mypeng.site/tags/MQ/"/>
     
   </entry>
   
