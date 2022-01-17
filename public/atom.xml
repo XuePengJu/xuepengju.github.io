@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-16T07:48:20.000Z</updated>
+  <updated>2022-01-17T15:32:48.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习笔记-Python之生成器和列表推导式的区别</title>
+    <link href="http://mypeng.site/posts/30fa304c/"/>
+    <id>http://mypeng.site/posts/30fa304c/</id>
+    <published>2022-01-17T15:32:48.000Z</published>
+    <updated>2022-01-17T15:32:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="生成器表达式和列表推导式的区别"><a href="#生成器表达式和列表推导式的区别" class="headerlink" title="生成器表达式和列表推导式的区别:"></a>生成器表达式和列表推导式的区别:</h2><ul><li>列表推导式比较耗内存. 一次性加载. 生成器表达式几乎不占用内存. 使用的时候才分<br>配和使用内存</li><li>得到的值不一样. 列表推导式得到的是一个列表. 生成器表达式获取的是一个生成器.<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2></li><li>同样一篮子鸡蛋. 列表推导式: 直接拿到一篮子鸡蛋. 生成器表达式: 拿到⼀个老母鸡. 需要<br>鸡蛋就给你下鸡蛋.</li><li>生成器的惰性机制: 生成器只有在访问的时候才取值. 说白了了. 你找他要他才给你值. 不找他<br>要. 他是不会执行的.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Python基础篇02-list和tuple常用操作</title>
@@ -437,28 +457,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>【测试理论】做自动化遇到的测试环境差异问题</title>
-    <link href="http://mypeng.site/posts/3e4105ad/"/>
-    <id>http://mypeng.site/posts/3e4105ad/</id>
-    <published>2021-12-02T14:11:17.000Z</published>
-    <updated>2021-12-02T14:11:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="最近公司在做接口自动化测试记录一下遇到的问题"><a href="#最近公司在做接口自动化测试记录一下遇到的问题" class="headerlink" title="最近公司在做接口自动化测试记录一下遇到的问题:"></a>最近公司在做接口自动化测试记录一下遇到的问题:</h4><h5 id="测试环境差异："><a href="#测试环境差异：" class="headerlink" title="测试环境差异："></a>测试环境差异：</h5><h6 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h6><p>1、测试环境可直接调用，业务不会触发反作弊系统，不需要加白名单。</p><p>2、可随意操作数据库，增删改查都可操作。</p><h6 id="预发环境："><a href="#预发环境：" class="headerlink" title="预发环境："></a>预发环境：</h6><p>1、预发环境与线上环境相差无几，除了与线上系统隔离外，有线上系统的全部能力。如果要在预发环境做接口测试，需要加各种业务的白名单。</p><p>2、同时想要访问预发环境的服务，需要在被测系统&amp;依赖服务机器上加运行自动化机器的白名单，才可正常访问预发环境的各个服务。</p><p>3、预发环境的数据库一般和生产环境用一套环境，一般情况下，是不允许删除操作的，所以在预发环境最多可执行更新操作。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-    <category term="自动化测试" scheme="http://mypeng.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
