@@ -6,7 +6,7 @@
   <link href="http://mypeng.site/atom.xml" rel="self"/>
   
   <link href="http://mypeng.site/"/>
-  <updated>2022-01-17T15:32:48.000Z</updated>
+  <updated>2022-01-23T13:13:56.000Z</updated>
   <id>http://mypeng.site/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>〖接口测试〗postman做接口测试10-全局变量/集合变量/环境变量</title>
+    <link href="http://mypeng.site/posts/c98d9940/"/>
+    <id>http://mypeng.site/posts/c98d9940/</id>
+    <published>2022-01-23T13:13:56.000Z</published>
+    <updated>2022-01-23T13:13:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>变量可以使我们在请求或脚本中存储和重复使用其值，通过将值保存在变量中，可以在集合，环境或请求中引用。</p></blockquote><p>对我们做接口测试来说，又是一个非常重要的功能 。</p><h2 id="在postman常用的三种变量分别是全局变量，环境变量，集合变量-。"><a href="#在postman常用的三种变量分别是全局变量，环境变量，集合变量-。" class="headerlink" title="在postman常用的三种变量分别是全局变量，环境变量，集合变量 。"></a>在postman常用的三种变量分别是全局变量，环境变量，集合变量 。</h2><blockquote><p>全局变量：一旦申明了全局变量，全局有效，也就是说postman中的任何集合，任何请求中都可以使用这个变量。它的作用域是最大的 。</p></blockquote><blockquote><p>环境变量：要申明环境变量，首先的创建环境，然后在环境中才能创建变量 。如果要想使用环境变量，必须先选择(导入)这个环境，这样就可以使用这个环境下的变量了 。需要说明的是环境也可以创建多个 。每个环境下又可以有多个变量 。</p></blockquote><blockquote><p>集合变量：集合变量是针对集合的，也就是说申明的变量必须基于某个集合，它的使用范围也只是针对这个集合有效 。</p></blockquote><p>其中，他们的作用域范围依次从大到小：全局变量&gt;集合变量&gt;环境变量 。 当在几个不同的范围内都申明了相同的变量时，则会优先使用范围最小的变量使。</p><h2 id="想要使用变量中的值只需俩个步骤，分别是定义变量和获取变量-。"><a href="#想要使用变量中的值只需俩个步骤，分别是定义变量和获取变量-。" class="headerlink" title="想要使用变量中的值只需俩个步骤，分别是定义变量和获取变量 。"></a>想要使用变量中的值只需俩个步骤，分别是定义变量和获取变量 。</h2><pre><code>1.定义变量（设置变量）2.获取变量（访问变量）</code></pre><h3 id="1-定义变量"><a href="#1-定义变量" class="headerlink" title="1. 定义变量"></a>1. 定义变量</h3><p>定义全局变量和环境变量，点击右上角的小齿轮，弹出如下界面，就可以根据需求定义全局变量或者环境变量了。</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/010-01.png" alt="img"> </p><p>已经定义的全局变量和环境变量，可以进行快速查看</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/010-02.png" alt="img"> </p><h3 id="2-定义集合变量"><a href="#2-定义集合变量" class="headerlink" title="2.定义集合变量"></a>2.定义集合变量</h3><h4 id="2-1-选择一个集合，打开查看更多动作-…-菜单，然后点击编辑-。选择“变量”选项卡以编辑或添加到集合变量。"><a href="#2-1-选择一个集合，打开查看更多动作-…-菜单，然后点击编辑-。选择“变量”选项卡以编辑或添加到集合变量。" class="headerlink" title="2.1 选择一个集合，打开查看更多动作(…)菜单，然后点击编辑 。选择“变量”选项卡以编辑或添加到集合变量。"></a>2.1 选择一个集合，打开查看更多动作(…)菜单，然后点击编辑 。选择“变量”选项卡以编辑或添加到集合变量。</h4><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/010-03.png" alt="img"> </p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/010-04.png" alt="img"> </p><h4 id="2-2-定义变量除了以上方式，还有另外一种方式-。但是这种方式在不同的位置定义，编写不一样。"><a href="#2-2-定义变量除了以上方式，还有另外一种方式-。但是这种方式在不同的位置定义，编写不一样。" class="headerlink" title="2.2 定义变量除了以上方式，还有另外一种方式 。但是这种方式在不同的位置定义，编写不一样。"></a>2.2 定义变量除了以上方式，还有另外一种方式 。但是这种方式在不同的位置定义，编写不一样。</h4><p>在URL，Params , Authorization , Headers , Body中定义：</p><p>手工方式创建一个空的变量名</p><p>在以上的位置把想要的值选中右击，选中Set：环境|全局 ，选中一个变量名，点击后就会保存到这个变量中</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/010-05.png" alt="img"> </p><p>在Tests，Pre-requests Script：</p><p>定义全局变量：pm.collectionVariables.set(“变量名”,变量值)</p><p>定义环境变量：pm.environment.set(“变量名”，变量值)</p><p>定义集合变量：pm.variables.set(“变量名”,变量值)</p><h3 id="3-获取变量"><a href="#3-获取变量" class="headerlink" title="3.获取变量"></a>3.获取变量</h3><p>定义好变量，接下来就可以使用变量了 。需要注意的是，在不同的位置获取变量，编写的规则也是不一样的 。</p><p>如果在请求参数中获取变量，无论是获取全局变量，还是环境变量，还是集合变量，获取的方式都是一样的编写规则：{undefined{变量名}} 。</p><p>请求参数指的是：URL，Params , Authorization , Headers , Body</p><p>如果是在编写代码的位置(Tests,Pre-requests Script)获取变量，获取不同类型的变量，编写的代码都不相同，具体如下：</p><p>获取环境变量：pm.environment.get(‘变量名’)</p><p>获取全局变量：pm.globals.get(‘变量名’)</p><p>获取集合变量：pm.pm.collectionVariables.get.get(‘变量名’)</p><p> <img src= "/img/loading1.gif" data-lazy-src="https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/010-06.png" alt="img"> </p><p>变量的使用场景非常广泛，比如我们后面要提到的接口关联，请求前置脚本都会使用到变量 。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="postman" scheme="http://mypeng.site/categories/postman/"/>
+    
+    
+    <category term="postman" scheme="http://mypeng.site/tags/postman/"/>
+    
+  </entry>
   
   <entry>
     <title>学习笔记-Python之生成器和列表推导式的区别</title>
@@ -61,7 +85,7 @@
   </entry>
   
   <entry>
-    <title>【接口测试】postman做接口测试09-日志调试</title>
+    <title>〖接口测试〗postman做接口测试09-日志调试</title>
     <link href="http://mypeng.site/posts/344e3c5b/"/>
     <id>http://mypeng.site/posts/344e3c5b/</id>
     <published>2022-01-14T16:39:30.000Z</published>
@@ -107,7 +131,7 @@
   </entry>
   
   <entry>
-    <title>【接口测试】postman做接口测试08-测试断言</title>
+    <title>〖接口测试〗postman做接口测试08-测试断言</title>
     <link href="http://mypeng.site/posts/2ab40ef8/"/>
     <id>http://mypeng.site/posts/2ab40ef8/</id>
     <published>2022-01-13T14:28:02.000Z</published>
@@ -131,7 +155,7 @@
   </entry>
   
   <entry>
-    <title>【接口测试】postman做接口测试07-批量执行用例</title>
+    <title>〖接口测试〗postman做接口测试07-批量执行用例</title>
     <link href="http://mypeng.site/posts/c4b6dbb9/"/>
     <id>http://mypeng.site/posts/c4b6dbb9/</id>
     <published>2022-01-12T15:05:36.000Z</published>
@@ -155,7 +179,7 @@
   </entry>
   
   <entry>
-    <title>【接口测试】postman做接口测试06-用例管理（Collection）</title>
+    <title>〖接口测试〗postman做接口测试06-用例管理（Collection）</title>
     <link href="http://mypeng.site/posts/b8685e49/"/>
     <id>http://mypeng.site/posts/b8685e49/</id>
     <published>2022-01-11T15:39:50.000Z</published>
@@ -179,7 +203,7 @@
   </entry>
   
   <entry>
-    <title>【接口测试】postman做接口测试05-响应数据解析</title>
+    <title>〖接口测试〗postman做接口测试05-响应数据解析</title>
     <link href="http://mypeng.site/posts/9656df9f/"/>
     <id>http://mypeng.site/posts/9656df9f/</id>
     <published>2022-01-10T14:33:29.000Z</published>
@@ -428,26 +452,6 @@
     <updated>2021-12-08T15:54:16.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>一、selenium安装</p><p>Python3.x安装后就默认就会有pip（pip.exe默认在python的Scripts路径下），使用pip安装selenium：</p><p>在CMD命令行输入：pip install selenium </p><p>二、Webdriver、geckodriver下载配置：</p><p>Webdriver下载路径：<a href="http://chromedriver.storage.googleapis.com/index.html，用于驱动打开Chrome；" target="_blank" rel="noopener">http://chromedriver.storage.googleapis.com/index.html，用于驱动打开Chrome；</a></p><p>geckodriver下载路径：<a href="https://github.com/mozilla/geckodriver/releases，用于驱动打开Firefox；" target="_blank" rel="noopener">https://github.com/mozilla/geckodriver/releases，用于驱动打开Firefox；</a></p><p>下载后放在python.exe相同目录下:</p><p><img src= "/img/loading1.gif" data-lazy-src="https:////upload-images.jianshu.io/upload_images/17223368-b0594b2a52a4034b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/755/format/webp" alt="img"></p><p>测试下：打开python自带编辑器IDLE</p><p><img src= "/img/loading1.gif" data-lazy-src="https:////upload-images.jianshu.io/upload_images/17223368-d4dc876f1a52d488.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/472/format/webp" alt="img"></p><p>如果能正常运行就证明驱动安装成功</p><p>三、pyCharm设置</p><p>打开pyCharm,点开File-Settings加入selenium，如下图，点+搜索selenium，点Install Package</p><p><img src= "/img/loading1.gif" data-lazy-src="https:////upload-images.jianshu.io/upload_images/17223368-e1a2c5f78a16bf5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1194/format/webp" alt="img"></p><p>二、mac环境搭建</p><p>1.前提</p><p>(1)mac系统自带python2.7，如果你要的是python3版本，需要自己下载安装。</p><p>(2)安装好IDE:pycharm</p><p>(3)安装好chrome浏览器</p><p>(4)下载chromedriver : <a href="http://npm.taobao.org/mirrors/chromedriver/2.36/（放到user/local/bin，打开访达-前往-前往文件夹：输入/usr/local/bin）" target="_blank" rel="noopener">http://npm.taobao.org/mirrors/chromedriver/2.36/（放到user/local/bin，打开访达-前往-前往文件夹：输入/usr/local/bin）</a></p><p>————————————————</p><p>2.安装selenium操作：</p><p>打开终端，输入：sudo pip3 install selenium（python2版本输入sudo pip install selenium） </p><p>打开“终端”方法：</p><p>在 Mac 上，请执行以下一项操作：</p><p>点按程序坞中的“启动台”图标 ，在搜索栏中键入“终端”，然后点按“终端”。</p><p>在“访达”中，打开“/应用程序/实用工具”文件夹，然后连按“终端”，打开。</p><p>导入第三方的包，别人都有file→setting，我这怎么就是没有。也是心累。</p><p>在这里记录一下，免得跟多人入坑</p><p>1、PyCharm→Preferences→Project：项目名→Project Interpreter</p><p><img src= "/img/loading1.gif" data-lazy-src="https:////upload-images.jianshu.io/upload_images/17223368-ea23f8ce76a0c6fc?imageMogr2/auto-orient/strip%7CimageView2/2/w/1003/format/webp" alt="img"></p><p>2、点击这个加号可以导入新的库,点击install，这里以requests库为例</p><p><img src= "/img/loading1.gif" data-lazy-src="https:////upload-images.jianshu.io/upload_images/17223368-2407675f4ef9d068?imageMogr2/auto-orient/strip%7CimageView2/2/w/924/format/webp" alt="img"></p><p>3、查看是否已经存在</p><p><img src= "/img/loading1.gif" data-lazy-src="https:////upload-images.jianshu.io/upload_images/17223368-58d95cbcea9a5638?imageMogr2/auto-orient/strip%7CimageView2/2/w/1003/format/webp" alt="img"></p><p>库已经导入了。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>【自动化测试】python自动化测试环境搭建</title>
-    <link href="http://mypeng.site/posts/undefined/"/>
-    <id>http://mypeng.site/posts/undefined/</id>
-    <published>2021-12-07T10:18:21.000Z</published>
-    <updated>2021-12-07T10:18:21.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="http://www.testclass.net/" target="_blank" rel="noopener">http://www.testclass.net/</a> 测试教程网，专业的selenium 学习网站。</p><p>selenium 是一个web的自动化测试工具，不少学习功能自动化的同学开始首选selenium ，相因为它相比QTP有诸多有点：</p><p>* 免费，也不用再为破解QTP而大伤脑筋</p><p>* 小巧，对于不同的语言它只是一个包而已，而QTP需要下载安装1个多G 的程序。</p><p>* 这也是最重要的一点，不管你以前更熟悉C、 java、ruby、python、或都是C# ，你都可以通过selenium完成自动化测试，而QTP只支持VBS </p><p>* 支持多平台：windows、linux、MAC ，支持多浏览器：ie、ff、safari、opera、chrome</p><p>* 支持分布式测试用例的执行，可以把测试用例分布到不同的测试机器的执行，相当于分发机的功能。</p><p>关于selenium的基础知识与java平台的结合，我之前写过一个《菜鸟学习自动化测试》系列，最近学python，所以想尝试一下selenium的在python平台如何搭建；还好这方法的文章很容易，在此将搭建步骤整理分享。</p><p>搭建平台windows </p><p>准备工具如下：</p><p>-————————————————————</p><p>下载python</p><p><a href="https://www.python.org/" target="_blank" rel="noopener">https://www.python.org/</a></p><p>-————————————————————</p><p>如果你是新学python，哪果你没有要用的包是必须依赖于pyhton2.x 的，那么请毫不犹豫的选择python3.5吧！</p><p><strong>window安装步骤：</strong></p><p>　　1、下载python安装。</p><p>　　<a href="https://www.python.org/downloads/release/python-351/" target="_blank" rel="noopener">https://www.python.org/downloads/release/python-351/</a></p><p><img src= "/img/loading1.gif" data-lazy-src="https://images2015.cnblogs.com/blog/311516/201606/311516-20160624115021578-1069073897.png" alt="img"></p><p>根据自己的操作系统32/64 位，选择相应的版本。</p><p>安装过程我就没必要描述，我的安装目录为：C:\Python35</p><p> 2、进入cmd(windows命令提示符)下面输入”python”命令。</p><p>（如果提示python不是内部或外部命令！别急，去配置一下环境变量吧）</p><p>3、安装selenium</p><p>3.1、通过pip 安装</p><p>C:\Users\fnngj&gt;python3 -m pip install selenium </p><p>3.2、通过下载包安装</p><p>或者直接下载selenium包：</p><p><a href="https://pypi.python.org/pypi/selenium" target="_blank" rel="noopener">https://pypi.python.org/pypi/selenium</a></p><p>解压，cmd进入目录:</p><p>C:\selenium\selenium2.53.5&gt; python3 setup.py install</p><p>===============================================</p><p><strong>ubuntu 下安装方式：</strong></p><p>1、安装：setuptools</p><p>root@fnngj-H24X:~# apt-get install python-setuptools</p><p>2、安装pip</p><p>root@fnngj-H24X:/home/fnngj/python# tar -zxvf pip-1.4.1.tar.gz</p><p>root@fnngj-H24X:/home/fnngj/python# cd pip-1.4.1/</p><p>root@fnngj-H24X:/home/fnngj/python# python setup.py install</p><p>3、安装selenium</p><p>root@fnngj-H24X:/home/fnngj/python/pip-1.4.1# pip install -U selenium</p><p>恭喜~！ 你前期工作已经做了，上面的步骤确实有些繁琐，但是并不难，不过我们已经完成成了，下面体验一下成果吧！ 拿python网站上的例子：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">from selenium import webdriver</span><br><span class="line">from selenium.common.exceptions import NoSuchElementException</span><br><span class="line">from selenium.webdriver.common.keys import Keys</span><br><span class="line">import time</span><br><span class="line"></span><br><span class="line">browser &#x3D; webdriver.Firefox() # Get local session of firefox</span><br><span class="line">browser.get(&quot;http:&#x2F;&#x2F;www.yahoo.com&quot;) # Load page</span><br><span class="line">assert &quot;Yahoo!&quot; in browser.title</span><br><span class="line">elem &#x3D; browser.find_element_by_name(&quot;p&quot;) # Find the query box</span><br><span class="line">elem.send_keys(&quot;seleniumhq&quot; + Keys.RETURN)</span><br><span class="line">time.sleep(0.2) # Let the page load, will be added to the API</span><br><span class="line">try:</span><br><span class="line">    browser.find_element_by_xpath(&quot;&#x2F;&#x2F;a[contains(@href,&#39;http:&#x2F;&#x2F;seleniumhq.org&#39;)]&quot;)</span><br><span class="line">except NoSuchElementException:</span><br><span class="line">    assert 0, &quot;can&#39;t find seleniumhq&quot;</span><br><span class="line">browser.close()</span><br></pre></td></tr></table></figure><p>（运行过程中如果出现错误： </p><p>WebDriverException: Message: u’Unexpected error launching Internet Explorer.</p><p> Protected Mode settings are not the same for all zones. Enable Protected Mo</p><p>de must be set to the same value (enabled or disabled) for all zones.’ </p><p>更改IE的internet选项-&gt;安全，将Internet/本地Internet/受信任的站定/受限制的站点中的启用保护模式全部去 掉勾，或者全部勾上。）</p><p>-—————————————-</p><p>selenium + python的一份不错文档</p><p><a href="http://selenium.googlecode.com/git/docs/api/py/index.html" target="_blank" rel="noopener">http://selenium.googlecode.com/git/docs/api/py/index.html</a></p><p>===========================如果想通过其它浏览器（IE Chrome）运行脚本=================================</p><p><strong>安装Chrome driver</strong></p><p>chrome driver的下载地址在<a href="https://code.google.com/p/chromedriver/downloads/list" target="_blank" rel="noopener">这里</a>。</p><p>　　1. 下载解压，你会得到一个chromedriver.exe文件（我点开，运行提示started no prot 9515 ，这是干嘛的？端口9515被占了？中间折腾了半天），后来才知道需要把这家伙放到chrome的安装目录下…\Google\Chrome\Application\ ,然后设置path环境变量，把chrome的安装目录（我的：C:\Program Files\Google\Chrome\Application），然后再调用运行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># coding &#x3D; utf-8</span><br><span class="line"></span><br><span class="line">from selenium import webdriver</span><br><span class="line"></span><br><span class="line">driver &#x3D; webdriver.Chrome()</span><br><span class="line"></span><br><span class="line">driver.get(&#39;http:&#x2F;&#x2F;radar.kuaibo.com&#39;)</span><br><span class="line"></span><br><span class="line">print driver.title</span><br><span class="line"></span><br><span class="line">driver.quit()</span><br></pre></td></tr></table></figure><p>又报了个错：</p><p>Chrome version must be &gt;= 27.0.1453.0\n (Driver info: chromedriver=2.0,platform=Windows NT 5.1 SP3 x86)</p><p>说我chrome的版本没有大于27.0.1453.0 ，这个好办，更新到最新版本即可。</p><p><strong>安装IE driver</strong></p><p>在新版本的webdriver中，只有安装了ie driver使用ie进行测试工作。</p><p>ie driver的下载地址在<a href="https://code.google.com/p/selenium/downloads/list" target="_blank" rel="noopener">这里</a>，记得根据自己机器的操作系统版本来下载相应的driver。</p><p>暂时还没尝试，应该和chrome的安装方式类似。</p><p><strong>记得配置IE的保护模式</strong></p><p>如果要使用webdriver启动IE的话，那么就需要配置IE的保护模式了。</p><p>把IE里的保护模式都选上或都勾掉就可以了。</p><p> 乙醇的安装方式：</p><p> <a href="http://easonhan007.github.io/python/2013/05/07/setup-env/" target="_blank" rel="noopener">http://easonhan007.github.io/python/2013/05/07/setup-env/</a></p><p>5分钟安装好selenium webdriver + python 环境：</p><p><a href="http://v.youku.com/v_show/id_XNjQ1MDI5Nzc2.html?qq-pf-to=pcqq.group" target="_blank" rel="noopener">http://v.youku.com/v_show/id_XNjQ1MDI5Nzc2.html?qq-pf-to=pcqq.group</a></p>]]></content>
     
     
       

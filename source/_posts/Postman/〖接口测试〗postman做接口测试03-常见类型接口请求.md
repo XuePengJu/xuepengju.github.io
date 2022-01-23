@@ -1,5 +1,5 @@
 ---
-title: 【接口测试】postman做接口测试03-常见类型接口请求
+title: 〖接口测试〗postman做接口测试03-常见类型接口请求
 abbrlink: 66841aa6
 date: 2021-03-20 20:18:17
 tags:

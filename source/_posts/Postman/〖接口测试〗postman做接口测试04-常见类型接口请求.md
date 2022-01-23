@@ -1,5 +1,5 @@
 ---
-title: 【接口测试】postman做接口测试04-常见类型接口请求
+title: 〖接口测试〗postman做接口测试04-常见类型接口请求
 abbrlink: be476180
 date: 2021-03-27 20:38:24
 tags:

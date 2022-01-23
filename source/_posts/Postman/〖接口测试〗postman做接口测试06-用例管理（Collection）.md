@@ -1,5 +1,5 @@
 ---
-title: 【接口测试】postman做接口测试06-用例管理（Collection）
+title: 〖接口测试〗postman做接口测试06-用例管理（Collection）
 abbrlink: b8685e49
 date: 2022-01-11 23:39:50
 tags:
