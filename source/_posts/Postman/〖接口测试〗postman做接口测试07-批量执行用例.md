@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试07-批量执行用例
 abbrlink: c4b6dbb9
 date: 2022-01-12 23:05:36
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(7).png
 tags:
  - postman
 categories:

@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试05-响应数据解析
 abbrlink: 9656df9f
 date: 2022-01-10 22:33:29
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(5).png
 tags:
   - postman
 categories:

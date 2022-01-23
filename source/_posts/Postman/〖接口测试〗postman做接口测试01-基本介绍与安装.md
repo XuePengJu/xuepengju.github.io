@@ -2,6 +2,7 @@
 title: '〖接口测试〗postman做接口测试01-基本介绍与安装'
 abbrlink: d7719dab
 date: 2021-03-06 22:00:00
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(1).png
 tags:
  - postman
 categories:

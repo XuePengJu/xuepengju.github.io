@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试08-测试断言
 abbrlink: 2ab40ef8
 date: 2022-01-13 22:28:02
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(8).png
 tags:
  - postman
 categories:

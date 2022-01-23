@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试10-全局变量/集合变量/环境变量
 abbrlink: c98d9940
 date: 2022-01-23 21:13:56
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(10).png
 tags:
  - postman
 categories:

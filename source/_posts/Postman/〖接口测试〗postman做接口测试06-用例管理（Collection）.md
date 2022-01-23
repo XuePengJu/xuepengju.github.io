@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试06-用例管理（Collection）
 abbrlink: b8685e49
 date: 2022-01-11 23:39:50
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(6).png
 tags:
  - postman
 categories:

@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试09-日志调试
 abbrlink: 344e3c5b
 date: 2022-01-15 00:39:30
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(9).png
 tags:
  - postman
 categories:

@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试02-发送第一个请求
 abbrlink: 8a00d2ea
 date: 2021-03-13 23:30:00
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(2).png
 tags:
  - postman
 categories:
