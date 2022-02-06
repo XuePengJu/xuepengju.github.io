@@ -1,1 +1,1 @@
-hexo clean && hexo g && hexo d  && hexo b
+hexo clean && hexo g && hexo d
