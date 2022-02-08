@@ -5,6 +5,7 @@ tags:
 categories:
   - postman
 abbrlink: adb093cd
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(11).png
 date: 2022-02-08 00:13:08
 ---
 
