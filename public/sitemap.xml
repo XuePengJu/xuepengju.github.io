@@ -518,13 +518,6 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mypeng.site/tags/MQ/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -532,7 +525,7 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/Appium/</loc>
+    <loc>http://mypeng.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -553,6 +546,13 @@
   </url>
   
   <url>
+    <loc>http://mypeng.site/tags/MySQL/</loc>
+    <lastmod>2022-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mypeng.site/tags/postman/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -560,7 +560,7 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/tags/MySQL/</loc>
+    <loc>http://mypeng.site/tags/Appium/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -583,13 +583,6 @@
 
   
   <url>
-    <loc>http://mypeng.site/categories/Appium/</loc>
-    <lastmod>2022-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mypeng.site/categories/Charles/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -604,6 +597,13 @@
   </url>
   
   <url>
+    <loc>http://mypeng.site/categories/MySQL/</loc>
+    <lastmod>2022-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mypeng.site/categories/postman/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -611,7 +611,7 @@
   </url>
   
   <url>
-    <loc>http://mypeng.site/categories/MySQL/</loc>
+    <loc>http://mypeng.site/categories/Appium/</loc>
     <lastmod>2022-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
