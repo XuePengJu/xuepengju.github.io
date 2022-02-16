@@ -2,6 +2,7 @@
 title: 〖接口测试〗postman做接口测试13-认证(Authorization)
 abbrlink: dcc42dc3
 date: 2022-02-11 22:13:55
+cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(13).png
 tags:
  - postman
 categories:
@@ -34,7 +35,7 @@ Inherit auto from parent:从父级继承身份验证，是每个请求的默认�
 ![img](https://gitee.com/XuePengJu/PictureDependency/raw/main/blog/ArticlePictures/postman/013-05.png)
 
 
- 
+
 
 ### Bearer Token:很多系统都是以这种认证方式，就是在请求头中添加Authorization：Bearer Token 。那么使用这种认证就非常方便 。
 

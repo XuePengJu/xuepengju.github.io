@@ -1,2 +1,2 @@
-echo "本地hexo 服务启动中 "
+echo "starting hexo ... "
 hexo clean && hexo g && hexo s
