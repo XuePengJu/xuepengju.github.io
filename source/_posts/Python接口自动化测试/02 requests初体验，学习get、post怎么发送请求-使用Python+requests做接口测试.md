@@ -1,5 +1,5 @@
 ---
-title: 02 requests初体验，学习get、post怎么发送请求-使用Python+request做接口测试
+title: 02 requests初体验，学习get、post怎么发送请求-使用Python+requests做接口测试
 abbrlink: 69423a58
 date: 2022-05-05 15:11:34
 tags:
