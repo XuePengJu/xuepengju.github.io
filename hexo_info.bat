@@ -1,4 +1,7 @@
-rm -rf node_modules && cnpm install --force
-cnpm install hexo-gitbackup --save
-cnpm install hexo-abbrlink --save
+rm -rf node_modules && npm install --force
+timeout /T 1
+npm remove hexo-baidu-url-submit
+timeout /T 1
+npm install hexo-gitbackup --save
+npm install hexo-abbrlink --save
 pause
