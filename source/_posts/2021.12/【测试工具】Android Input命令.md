@@ -8,7 +8,7 @@ tags:
 
 ## input
 
-input是Android系统中的一个特殊的命令，用于模拟遥控器、键盘、鼠标的各种按键操作。我们都知道Android是阉割版本的Linux系统，Linux中很多命令在Android系统中是没有的。但是他们之间并没有包含的关系，Android系统中有些特有的东西（命令、属性）在Linux中也是没有的。
+input是Android系统中的一个特殊的命令，用于模拟遥控器、键盘、鼠标的各种按键操作。我们都知道Android是阉割版本的Linux系统，Linux中很多命令在Android系统中是没有的。但是他们之间并没有包含的关系，Android系统中有些特有的东西（命令、属性）在Linux中也是没有的。 <!-- more --> 
 
 ### 命令路径
 

@@ -6,12 +6,11 @@ categories:
   - postman
 abbrlink: adb093cd
 date: 2022-02-08 00:13:08
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(11).png
 ---
 
 # 什么是关联接口
 
-在我们测试的接口中，经常出现这种情况 。 上一个接口的返回数据是下一个接口的输入参数 ，那么这俩个接口就产生了关联关系 。 这种关联在做接口测试时非常常见，那么在postman中，如何实现这种关联关系呢 ？我们通过一个案例来实现。
+在我们测试的接口中，经常出现这种情况 。 上一个接口的返回数据是下一个接口的输入参数 ，那么这俩个接口就产生了关联关系 。 这种关联在做接口测试时非常常见，那么在postman中，如何实现这种关联关系呢 ？我们通过一个案例来实现。 <!-- more --> 
 
 ### 案例：
 

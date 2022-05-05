@@ -8,6 +8,8 @@ categories:
   - Shell脚本
 ---
 
+> Linux命令Demo  <!-- more --> 
+
 ## 1). $0 获取脚本名称
 
 ```shell

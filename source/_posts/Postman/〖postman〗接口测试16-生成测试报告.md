@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试16-生成测试报告
 abbrlink: 43b8c324
 date: 2022-02-20 16:54:38
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(16).png
 tags:
  - postman
 categories:
@@ -11,7 +10,7 @@ categories:
 
 # 生成测试报告
 
-postman生成测试报告需要一个插件：newman ，并且这个插件需要先安装 。
+postman生成测试报告需要一个插件：newman ，并且这个插件需要先安装 。 <!-- more --> 
 
 ## 安装步骤：
 

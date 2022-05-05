@@ -7,7 +7,7 @@ layout:
 tags:
 ---
 
-在武汉，房子里待着，不出去影响世界了，转载点文章。
+在武汉，房子里待着，不出去影响世界了，转载点文章。 <!-- more --> 
 
 在 Python 众多的 HTTP 客户端中，最有名的莫过于requests、aiohttp和httpx。在不借助其他第三方库的情况下，requests只能发送同步请求；aiohttp只能发送异步请求；httpx既能发送同步请求，又能发送异步请求。
 

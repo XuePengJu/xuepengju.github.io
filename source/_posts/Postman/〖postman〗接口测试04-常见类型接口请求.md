@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试04-常见类型接口请求
 abbrlink: be476180
 date: 2021-03-27 20:38:24
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(4).png
 tags:
   - postman
 categories:
   - postman
 ---
 
-接下来我们介绍俩种表单 ，分别是：application/x-www-form-urlencoded和multipart/form-data。它们都支持表单请求，所不同的是后一种支持上传文件，而前一种只支持表单 。
+接下来我们介绍俩种表单 ，分别是：application/x-www-form-urlencoded和multipart/form-data。它们都支持表单请求，所不同的是后一种支持上传文件，而前一种只支持表单 。 <!-- more --> 
 
 ## 三、表单类型的请求
 

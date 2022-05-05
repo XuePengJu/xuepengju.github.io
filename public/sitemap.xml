@@ -2,72 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/f46b70d8/</loc>
+    <loc>https://xuepengju.github.io/posts/69423a58/</loc>
     
-    <lastmod>2022-02-27</lastmod>
+    <lastmod>2022-05-05</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/posts/ab3b7c7/</loc>
+    <loc>https://xuepengju.github.io/posts/9d1414ba/</loc>
     
-    <lastmod>2022-02-27</lastmod>
+    <lastmod>2022-05-03</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/posts/6556c33b/</loc>
+    <loc>https://xuepengju.github.io/posts/f46b70d8/</loc>
     
     <lastmod>2022-02-27</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/posts/69ae7450/</loc>
+    <loc>https://xuepengju.github.io/posts/ab3b7c7/</loc>
+    
+    <lastmod>2022-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/posts/6556c33b/</loc>
+    
+    <lastmod>2022-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/posts/69ae7450/</loc>
     
     <lastmod>2022-02-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/posts/22131793/</loc>
+    <loc>https://xuepengju.github.io/posts/22131793/</loc>
     
     <lastmod>2022-02-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/posts/43b8c324/</loc>
+    <loc>https://xuepengju.github.io/tags/index.html</loc>
     
-    <lastmod>2022-02-20</lastmod>
+    <lastmod>2022-02-23</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mypeng.site/posts/f5e730b6/</loc>
-    
-    <lastmod>2022-02-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/posts/6172e27e/</loc>
-    
-    <lastmod>2022-02-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/posts/dcc42dc3/</loc>
-    
-    <lastmod>2022-02-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/posts/99817e93/</loc>
-=======
     <loc>https://xuepengju.github.io/posts/43b8c324/</loc>
     
     <lastmod>2022-02-20</lastmod>
@@ -105,10 +111,11 @@
   
   <url>
     <loc>https://xuepengju.github.io/posts/99817e93/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
     
     <lastmod>2022-02-08</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -116,182 +123,107 @@
     
     <lastmod>2022-02-07</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/video/index.html</loc>
-=======
     <loc>https://xuepengju.github.io/posts/c98d9940/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
-    
-    <lastmod>2022-02-06</lastmod>
-    
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/%E9%A3%8E%E6%99%AF/index.html</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/30fa304c/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
-    
-    <lastmod>2022-02-06</lastmod>
-    
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/music/index.html</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/d2331223/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
-    
-    <lastmod>2022-02-06</lastmod>
-    
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/photo/index.html</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/344e3c5b/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
-    
-    <lastmod>2022-02-06</lastmod>
-    
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/bbs/index.html</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/689fc75c/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
-    
-    <lastmod>2022-02-06</lastmod>
-    
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/c98d9940/</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/2ab40ef8/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
     
     <lastmod>2022-01-23</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/30fa304c/</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/c4b6dbb9/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/30fa304c/</loc>
     
     <lastmod>2022-01-17</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/d2331223/</loc>
-=======
-    <loc>https://xuepengju.github.io/bbs/index.html</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/d2331223/</loc>
     
     <lastmod>2022-01-16</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/344e3c5b/</loc>
-=======
-    <loc>https://xuepengju.github.io/music/index.html</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/344e3c5b/</loc>
     
     <lastmod>2022-01-14</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/689fc75c/</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/b8685e49/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/689fc75c/</loc>
     
     <lastmod>2022-01-13</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/2ab40ef8/</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/9656df9f/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/2ab40ef8/</loc>
     
     <lastmod>2022-01-13</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/c4b6dbb9/</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/3bd3916a/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/c4b6dbb9/</loc>
     
     <lastmod>2022-01-12</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/b8685e49/</loc>
-=======
-    <loc>https://xuepengju.github.io/%E9%A3%8E%E6%99%AF/index.html</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/b8685e49/</loc>
     
     <lastmod>2022-01-11</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/9656df9f/</loc>
-=======
-    <loc>https://xuepengju.github.io/photo/index.html</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/9656df9f/</loc>
     
     <lastmod>2022-01-10</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/3bd3916a/</loc>
-=======
-    <loc>https://xuepengju.github.io/posts/ea42950b/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/3bd3916a/</loc>
     
     <lastmod>2022-01-09</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/ea42950b/</loc>
-=======
-    <loc>https://xuepengju.github.io/video/index.html</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <loc>https://xuepengju.github.io/posts/ea42950b/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -299,6 +231,8 @@
     
     <lastmod>2022-01-01</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -306,6 +240,8 @@
     
     <lastmod>2021-12-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -313,6 +249,8 @@
     
     <lastmod>2021-12-21</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -320,6 +258,8 @@
     
     <lastmod>2021-12-20</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -327,6 +267,8 @@
     
     <lastmod>2021-12-15</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -334,6 +276,8 @@
     
     <lastmod>2021-12-14</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -341,6 +285,8 @@
     
     <lastmod>2021-12-12</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -348,6 +294,8 @@
     
     <lastmod>2021-12-10</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -355,6 +303,8 @@
     
     <lastmod>2021-12-08</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -362,6 +312,8 @@
     
     <lastmod>2021-12-07</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -369,13 +321,8 @@
     
     <lastmod>2021-12-02</lastmod>
     
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/posts/5a17eb30/</loc>
-    
-    <lastmod>2021-12-02</lastmod>
-    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -383,6 +330,8 @@
     
     <lastmod>2021-12-01</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -390,6 +339,8 @@
     
     <lastmod>2021-11-30</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -397,6 +348,8 @@
     
     <lastmod>2021-11-28</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -404,6 +357,8 @@
     
     <lastmod>2021-05-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -411,6 +366,8 @@
     
     <lastmod>2021-03-27</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -418,6 +375,8 @@
     
     <lastmod>2021-03-20</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -425,6 +384,8 @@
     
     <lastmod>2021-03-13</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -432,6 +393,8 @@
     
     <lastmod>2021-03-06</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -439,6 +402,8 @@
     
     <lastmod>2021-03-02</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -446,6 +411,8 @@
     
     <lastmod>2021-02-21</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -453,6 +420,8 @@
     
     <lastmod>2021-02-16</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -460,6 +429,8 @@
     
     <lastmod>2021-02-10</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -467,6 +438,8 @@
     
     <lastmod>2021-02-05</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -474,6 +447,8 @@
     
     <lastmod>2021-02-04</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -481,6 +456,8 @@
     
     <lastmod>2020-08-31</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -488,13 +465,8 @@
     
     <lastmod>2020-08-30</lastmod>
     
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/posts/f84657b8/</loc>
-    
-    <lastmod>2020-07-26</lastmod>
-    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
@@ -502,323 +474,175 @@
     
     <lastmod>2020-07-25</lastmod>
     
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/shuoshuo/index.html</loc>
-    
-    <lastmod>2020-07-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/link/index.html</loc>
-    
-    <lastmod>2020-07-25</lastmod>
-    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/categories/index.html</loc>
     
-    <lastmod>2020-07-25</lastmod>
+    <lastmod>2018-06-11</lastmod>
     
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/tags/index.html</loc>
-    
-    <lastmod>2020-07-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/posts/50a2b841/</loc>
-    
-    <lastmod>2020-07-22</lastmod>
-    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
 
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/</loc>
-    <lastmod>2022-03-06</lastmod>
-=======
     <loc>https://xuepengju.github.io/</loc>
-    <lastmod>2022-02-22</lastmod>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+    <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/tags/API/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/FLAG/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/MQ/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/Appium/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/Charles/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/Hexo/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/MySQL/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/Python%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/postman/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/tags/Shell%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-=======
     <loc>https://xuepengju.github.io/tags/API/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/tags/FLAG/</loc>
-    <lastmod>2022-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/tags/Appium/</loc>
-    <lastmod>2022-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/tags/MQ/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/tags/MQ/</loc>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/tags/Charles/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/tags/Appium/</loc>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/tags/Hexo/</loc>
-    <lastmod>2022-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/tags/postman/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/tags/MySQL/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/tags/Shell%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <loc>https://xuepengju.github.io/tags/postman/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/tags/Python%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/tags/Python%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/tags/Shell%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
   </url>
   
 
   
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/categories/Appium/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/categories/Charles/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/categories/Hexo/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/categories/MySQL/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/categories/Python%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/categories/postman/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mypeng.site/categories/Shell%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2022-03-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-=======
-    <loc>https://xuepengju.github.io/categories/Appium/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <loc>https://xuepengju.github.io/categories/%E6%8A%80%E6%9C%AF%E7%A7%AF%E7%B4%AF/</loc>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/categories/Charles/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/categories/Appium/</loc>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/categories/Hexo/</loc>
-    <lastmod>2022-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/categories/postman/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/categories/MySQL/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/categories/Shell%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <loc>https://xuepengju.github.io/categories/postman/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/categories/Python%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuepengju.github.io/categories/Python%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2022-02-22</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/categories/Shell%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
   </url>
   
 </urlset>

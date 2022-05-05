@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试06-用例管理（Collection）（Collection）
 abbrlink: b8685e49
 date: 2022-01-11 23:39:50
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(6).png
 tags:
  - postman
 categories:
@@ -11,7 +10,7 @@ categories:
 
 ## 怎么解决用例满天飞的局面？
 
-当我们对一个或多个系统中的很多用例进行维护时，首先想到的就是对用例进行分类管理，同时我们还要对这些做回归测试 。那么postman也提供了这样一个功能，就是Collection 。通过这个Collection就可以满足我们的上面说的需求。
+当我们对一个或多个系统中的很多用例进行维护时，首先想到的就是对用例进行分类管理，同时我们还要对这些做回归测试 。那么postman也提供了这样一个功能，就是Collection 。通过这个Collection就可以满足我们的上面说的需求。 <!-- more --> 
 
 ### 先对Collection功能的使用场景做个简单总结 。
 

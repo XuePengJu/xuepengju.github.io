@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试10-全局变量-集合变量-环境变量
 abbrlink: c98d9940
 date: 2022-01-23 21:13:56
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(10).png
 tags:
  - postman
 categories:
@@ -11,7 +10,7 @@ categories:
 
 > 变量可以使我们在请求或脚本中存储和重复使用其值，通过将值保存在变量中，可以在集合，环境或请求中引用。
 
-对我们做接口测试来说，又是一个非常重要的功能 。
+ <!-- more --> 对我们做接口测试来说，又是一个非常重要的功能 。
 
 ## 在postman常用的三种变量分别是全局变量，环境变量，集合变量 。
 

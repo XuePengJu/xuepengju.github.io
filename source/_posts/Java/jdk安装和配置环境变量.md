@@ -5,7 +5,7 @@ date: 2021-05-26 20:51:29
 tags:
 ---
 
-> 学习JAVA，必须得安装一下JDK(java development kit java开发工具包)，配置一下环境就可以学习JAVA了，下面是下载和安装JDK的教程：
+> 学习JAVA，必须得安装一下JDK(java development kit java开发工具包)，配置一下环境就可以学习JAVA了，下面是下载和安装JDK的教程： <!-- more --> 
 
 ## 1.JDK下载地址：
 

@@ -6,12 +6,11 @@ categories:
   - postman
 abbrlink: '99817e93'
 date: 2022-02-08 22:24:22
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(12).png
 ---
 
 # 什么是前置脚本
 
-前置脚本其实就是在Pre-requests Script中编写的JavaScript脚本，想要了解这个功能，需要先了解它的执行顺序。那么下面就来看下它的执行顺序 。
+前置脚本其实就是在Pre-requests Script中编写的JavaScript脚本，想要了解这个功能，需要先了解它的执行顺序。那么下面就来看下它的执行顺序 。 <!-- more --> 
 
  ![img](/img/blog/postman/12/012-01.png) 
 

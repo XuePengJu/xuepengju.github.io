@@ -6,7 +6,7 @@ date: 2021-12-10 23:02:26
 tags:
 ---
 
-谈到http接口调用，Requests大家并不陌生，例如，robotframework-requests、HttpRunner等HTTP接口测试库/框架都是基于它开发。这里将介绍另一款http接口测试框架:httpx。
+谈到http接口调用，Requests大家并不陌生，例如，robotframework-requests、HttpRunner等HTTP接口测试库/框架都是基于它开发。这里将介绍另一款http接口测试框架:httpx。 <!-- more --> 
 
 它的API和Requests高度一致。
 

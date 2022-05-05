@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试13-认证-Authorization
 abbrlink: dcc42dc3
 date: 2022-02-11 22:13:55
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(13).png
 tags:
  - postman
 categories:
@@ -10,7 +9,7 @@ categories:
 ---
 
 # Authorization是什么？
-这又是一个非常实用的功能，对我们做接口测试来说，经常要处理登录认证的情况 。如果不用这个Authorization其实也能解决认证的问题，无非就是把要认证的数据按照要求在指定位置传入参数即可。比如我们之前测试的系统，登录后返回的token要在每个请求接口的headers中传入 。这时就需要在每个headers中都填写一个认证参数传入 ，但是这样做的话太过繁琐，如果使用认证(Authorization)功能的话，就会大大简化了我们的认证过程。
+这又是一个非常实用的功能，对我们做接口测试来说，经常要处理登录认证的情况 。 <!-- more --> 如果不用这个Authorization其实也能解决认证的问题，无非就是把要认证的数据按照要求在指定位置传入参数即可。比如我们之前测试的系统，登录后返回的token要在每个请求接口的headers中传入 。这时就需要在每个headers中都填写一个认证参数传入 ，但是这样做的话太过繁琐，如果使用认证(Authorization)功能的话，就会大大简化了我们的认证过程。
 
 我们先来看下这个功能的具体位置及主要作用 。
  ![img](/img/blog/postman/13/013-01.png)

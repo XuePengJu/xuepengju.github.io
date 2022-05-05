@@ -1,45 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-<<<<<<< HEAD
-    <loc>http://mypeng.site/posts/f46b70d8/</loc>
+    <loc>https://xuepengju.github.io/posts/69423a58/</loc>
+    <lastmod>2022-05-05</lastmod>
+  </url>
+  <url>
+    <loc>https://xuepengju.github.io/posts/9d1414ba/</loc>
+    <lastmod>2022-05-03</lastmod>
+  </url>
+  <url>
+    <loc>https://xuepengju.github.io/posts/f46b70d8/</loc>
     <lastmod>2022-02-27</lastmod>
   </url>
   <url>
-    <loc>http://mypeng.site/posts/ab3b7c7/</loc>
+    <loc>https://xuepengju.github.io/posts/ab3b7c7/</loc>
     <lastmod>2022-02-27</lastmod>
   </url>
   <url>
-    <loc>http://mypeng.site/posts/6556c33b/</loc>
+    <loc>https://xuepengju.github.io/posts/6556c33b/</loc>
     <lastmod>2022-02-27</lastmod>
   </url>
   <url>
-    <loc>http://mypeng.site/posts/69ae7450/</loc>
+    <loc>https://xuepengju.github.io/posts/69ae7450/</loc>
     <lastmod>2022-02-26</lastmod>
   </url>
   <url>
-    <loc>http://mypeng.site/posts/22131793/</loc>
+    <loc>https://xuepengju.github.io/posts/22131793/</loc>
     <lastmod>2022-02-26</lastmod>
   </url>
   <url>
-    <loc>http://mypeng.site/posts/43b8c324/</loc>
-    <lastmod>2022-02-20</lastmod>
-  </url>
-  <url>
-    <loc>http://mypeng.site/posts/f5e730b6/</loc>
-    <lastmod>2022-02-16</lastmod>
-  </url>
-  <url>
-    <loc>http://mypeng.site/posts/6172e27e/</loc>
-    <lastmod>2022-02-15</lastmod>
-  </url>
-  <url>
-    <loc>http://mypeng.site/posts/dcc42dc3/</loc>
-    <lastmod>2022-02-11</lastmod>
-  </url>
-  <url>
-    <loc>http://mypeng.site/posts/99817e93/</loc>
-=======
     <loc>https://xuepengju.github.io/posts/43b8c324/</loc>
     <lastmod>2022-02-20</lastmod>
   </url>
@@ -57,7 +46,6 @@
   </url>
   <url>
     <loc>https://xuepengju.github.io/posts/99817e93/</loc>
->>>>>>> a70e13535f7f73e52845d6c800b0c4ef8f7b272f
     <lastmod>2022-02-08</lastmod>
   </url>
   <url>
@@ -153,10 +141,6 @@
     <lastmod>2021-12-02</lastmod>
   </url>
   <url>
-    <loc>https://xuepengju.github.io/posts/5a17eb30/</loc>
-    <lastmod>2021-12-02</lastmod>
-  </url>
-  <url>
     <loc>https://xuepengju.github.io/posts/3457ed69/</loc>
     <lastmod>2021-12-01</lastmod>
   </url>
@@ -219,13 +203,5 @@
   <url>
     <loc>https://xuepengju.github.io/posts/3ba53770/</loc>
     <lastmod>2020-08-30</lastmod>
-  </url>
-  <url>
-    <loc>https://xuepengju.github.io/posts/f84657b8/</loc>
-    <lastmod>2020-07-26</lastmod>
-  </url>
-  <url>
-    <loc>https://xuepengju.github.io/posts/50a2b841/</loc>
-    <lastmod>2020-07-22</lastmod>
   </url>
 </urlset> 

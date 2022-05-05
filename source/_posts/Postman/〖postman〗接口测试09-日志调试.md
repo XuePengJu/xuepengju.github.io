@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试09-日志调试
 abbrlink: 344e3c5b
 date: 2022-01-15 00:39:30
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(9).png
 tags:
  - postman
 categories:
   - postman
 ---
 
-> 在做接口测试时，经常会因为代码写的有问题导致报错，这时通过查看日志就显得非常重要了，postman也提供了这样的功能，它允许我们在脚本中编写打印语句，查看打印的结果 ; 同时也可以查看每个请求的日志信息 。
+> 在做接口测试时，经常会因为代码写的有问题导致报错，这时通过查看日志就显得非常重要了，postman也提供了这样的功能，它允许我们在脚本中编写打印语句，查看打印的结果 ; 同时也可以查看每个请求的日志信息 。 <!-- more --> 
 
 ## postman日志用的是什么编程语言？
 

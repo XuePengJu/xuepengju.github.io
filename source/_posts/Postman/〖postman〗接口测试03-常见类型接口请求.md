@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试03-常见类型接口请求
 abbrlink: 66841aa6
 date: 2021-03-20 20:18:17
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(3).png
 tags:
  - postman
 categories:
@@ -10,7 +9,7 @@ categories:
 ---
 
 
-在做接口测试时，我们经常遇到以下4种类型的接口，分别是查询参数接口，表单类型的接口，支持文件上传的接口以及json类型的接口 。那么这些类型的接口在postman如何去请求呢 ？
+在做接口测试时，我们经常遇到以下4种类型的接口，分别是查询参数接口，表单类型的接口，支持文件上传的接口以及json类型的接口 。那么这些类型的接口在postman如何去请求呢 ？ <!-- more --> 
 
 ## 一、查询参数的接口请求
 

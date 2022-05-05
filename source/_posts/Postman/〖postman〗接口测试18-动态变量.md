@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试18-动态变量
 abbrlink: 69ae7450
 date: 2022-02-26 23:31:48
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(18).png
 tags:
  - postman
 categories:
@@ -11,7 +10,7 @@ categories:
 
 >  动态变量列表，其动态值在请求运行期间随机生成 。随机生成的值可用于请求的参数值 。
 
-要想使用动态变量，必须使用：pm.variables.replaceIn(),
+ <!-- more --> 要想使用动态变量，必须使用：pm.variables.replaceIn(),
 ##### 例如：
 
 	pm.variables.replaceIn(‘{undefined{$randomFirstName}}’), 

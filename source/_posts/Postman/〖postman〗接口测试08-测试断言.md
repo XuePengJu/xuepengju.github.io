@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试08-测试断言
 abbrlink: 2ab40ef8
 date: 2022-01-13 22:28:02
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(8).png
 tags:
  - postman
 categories:
   - postman
 ---
 
-> 如果没有断言这个功能，那我们的测试就只能是通过我们人工比较预期结果和实际结果是否一致。有了这个功能就为我们做自动化提供了条件，postman中的断言也是非常方便的 。
+> 如果没有断言这个功能，那我们的测试就只能是通过我们人工比较预期结果和实际结果是否一致。有了这个功能就为我们做自动化提供了条件，postman中的断言也是非常方便的 。 <!-- more --> 
 
 # 我们先来了解下postman断言的一些特点 ，具体如下
 

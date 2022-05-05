@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试21-读取外部文件进行数据参数化
 abbrlink: f46b70d8
 date: 2022-02-27 21:11:53
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(21).png
 tags:
  - postman
 categories:
   - postman
 ---
 
-测试过程中，常会遇到一个接口要验证很多的测试[数据](/posts/f46b70d8/)，而所输入的参数和验证的参数又几乎是一样的。这样我们就会首先想到数据参数化，在postman中也提供了数据参数化功能，它需要把数据单独的存放在一个文件中管理，然后通过读取这个文件实现所有的数据的验证，具体如下：
+测试过程中，常会遇到一个接口要验证很多的测试[数据](/posts/f46b70d8/)，而所输入的参数和验证的参数又几乎是一样的。这样我们就会首先想到数据参数化，在postman中也提供了数据参数化功能。 <!-- more --> 它需要把数据单独的存放在一个文件中管理，然后通过读取这个文件实现所有的数据的验证，具体如下：
 
 ### 实现步骤 。
 

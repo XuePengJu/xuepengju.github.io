@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试05-响应数据解析
 abbrlink: 9656df9f
 date: 2022-01-10 22:33:29
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(5).png
 tags:
   - postman
 categories:
@@ -10,7 +9,7 @@ categories:
 ---
 
 ## 什么是返回？
-响应数据是发送请求后经过服务器处理后返回的结果，响应是由三部分组成，分别是状态行、响应头、响应体。我们来看下[postman](https://so.csdn.net/so/search?q=postman)的响应数据展示 
+响应数据是发送请求后经过服务器处理后返回的结果，响应是由三部分组成，分别是状态行、响应头、响应体。 <!-- more --> 我们来看下[postman](https://so.csdn.net/so/search?q=postman)的响应数据展示 
 
 ![百度搜索](/img/blog/postman/05/05-01.png)
 

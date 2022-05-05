@@ -2,7 +2,6 @@
 title: 〖postman〗接口测试19-Collection-Runner
 abbrlink: 6556c33b
 date: 2022-02-27 18:44:07
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(19).png
 tags:
  - postman
 categories:
@@ -11,7 +10,7 @@ categories:
 
 > 经常我们要把编写好的用例进行回归测试，这时我们就可以通过Runner来选择我们要运行的测试集进行回归。
 
-
+ <!-- more --> 
 
 
 进入Runner有俩个入口，第一个就是选择一个<font color="#CD7F32">集合</font> ，点击右三角进入（批量执行用例），第二个就是在postman的导航栏左侧 （如图），打开的界面如下。

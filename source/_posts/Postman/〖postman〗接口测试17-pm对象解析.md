@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试17-pm对象解析
 abbrlink: '22131793'
 date: 2022-02-26 13:16:11
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(17).png
 tags:
  - postman
 categories:
   - postman
 ---
 
-> pm对象包含了正在执行的脚本有关的所有信息，并允许一个对象访问正在发送的请求或已收到的响应数据。它还允许设置环境和全局变量 。
+> pm对象包含了正在执行的脚本有关的所有信息，并允许一个对象访问正在发送的请求或已收到的响应数据。它还允许设置环境和全局变量 。 <!-- more --> 
 
 ## 1.pm.sendRequest:
 该功能允许发送HTTP/HTTPS请求。并且要求在Pre-request Script或Tests标签中使用。

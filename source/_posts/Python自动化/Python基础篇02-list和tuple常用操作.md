@@ -8,7 +8,7 @@ categories:
   - Python自动化
 ---
 
-
+list和tuple常用操作<!-- more -->
 
 
 # 列表

@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试20-建立工作流
 abbrlink: ab3b7c7
 date: 2022-02-27 19:00:43
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(20).png
 tags:
  - postman
 categories:
   - postman
 ---
 
-在前面讲的Runner，如果运行集合中的请求，则是按照顺序运行所有请求 。如下图，有4个请求，通过runner运行的话，会顺序这4个请求 。
+在前面讲的Runner，如果运行集合中的请求，则是按照顺序运行所有请求 。 <!-- more --> 如下图，有4个请求，通过runner运行的话，会顺序这4个请求 。
 
 ![img](/img/blog/postman/20/020-01.png)
 

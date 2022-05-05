@@ -2,14 +2,13 @@
 title: 〖postman〗接口测试07-批量执行用例
 abbrlink: c4b6dbb9
 date: 2022-01-12 23:05:36
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(7).png
 tags:
  - postman
 categories:
   - postman
 ---
 
->  当我们在一个Collection中编写了很多的接口测试用例，想一起执行这批用例，在postman中是如何操作呢 ？
+>  当我们在一个Collection中编写了很多的接口测试用例，想一起执行这批用例，在postman中是如何操作呢 ？ <!-- more --> 
 
 # 实现步骤：
 

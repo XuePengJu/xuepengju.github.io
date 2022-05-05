@@ -11,7 +11,7 @@ date: 2022-01-01 17:09:02
 ---
 今天搜了下hexo博客备份，发现好多都是用git命令备份的，于是推荐款好用的hexo备份插件：
 
-[hexo-git-backup](https://github.com/coneycode/hexo-git-backup)
+[hexo-git-backup](https://github.com/coneycode/hexo-git-backup) <!-- more --> 
 
 ## **git-backup使用说明(翻译至README)：**
 

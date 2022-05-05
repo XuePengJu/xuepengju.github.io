@@ -6,10 +6,9 @@ categories:
   - postman
 abbrlink: 6172e27e
 date: 2022-02-15 22:59:55
-cover: https://gitee.com/XuePengJu/PictureDependency/raw/main/transparent_picture/transparent_picture%20(14).png
 ---
 
-这又是一个非常实用的功能。可以将postman中的集合脚本，环境变量、全局变量导出，然后分享到团队成员，也可以通过导出后的脚本通过newman生成测试报告。更牛的是可以把浏览器，抓包工具，接口文档(swagger)中的数据包导入到postman中，并且会自动生成一个请求 。非常非常的方便 。
+这又是一个非常实用的功能。可以将postman中的集合脚本，环境变量、全局变量导出，然后分享到团队成员，也可以通过导出后的脚本通过newman生成测试报告。更牛的是可以把浏览器，抓包工具，接口文档(swagger)中的数据包导入到postman中，并且会自动生成一个请求 。非常非常的方便 。 <!-- more --> 
 
 ## 1.导出
 

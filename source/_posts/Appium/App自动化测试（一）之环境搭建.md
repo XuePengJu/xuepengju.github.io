@@ -12,7 +12,7 @@ categories:
 
 ## App自动化测试环境搭建
 
-## 一、准备jdk环境
+##  <!-- more --> 一、准备jdk环境
 
 [jdk安装和配置环境变量](http://mypeng.site/post/54eecc7d.html)
 

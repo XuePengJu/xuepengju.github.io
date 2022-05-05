@@ -9,7 +9,7 @@ abbrlink: 3ba53770
 date: 2020-08-30 20:08:31
 ---
 
-## 介绍
+##  <!-- more --> 介绍
 &emsp;&emsp;一款专注阅读的博客园主题，主要面向于经常混迹 博客园 的朋友。其追求大道至简的终极真理，界面追求简洁、运行追求高效、部署追求简单。
 * [博客皮肤源码地址](https://github.com/glassy-sky-lisong/SilenceSkin)
 * [预览地址](https://www.cnblogs.com/esofar)
