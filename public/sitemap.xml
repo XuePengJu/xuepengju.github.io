@@ -396,13 +396,6 @@
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/tags/Appium/</loc>
-    <lastmod>2022-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xuepengju.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
@@ -424,6 +417,13 @@
   </url>
   
   <url>
+    <loc>https://xuepengju.github.io/tags/Appium/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuepengju.github.io/tags/Charles/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
@@ -438,14 +438,14 @@
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/tags/postman/</loc>
+    <loc>https://xuepengju.github.io/tags/MySQL/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/tags/MySQL/</loc>
+    <loc>https://xuepengju.github.io/tags/postman/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -503,14 +503,14 @@
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/categories/postman/</loc>
+    <loc>https://xuepengju.github.io/categories/MySQL/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/categories/MySQL/</loc>
+    <loc>https://xuepengju.github.io/categories/postman/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
