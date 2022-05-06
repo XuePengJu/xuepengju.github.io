@@ -403,13 +403,6 @@
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xuepengju.github.io/tags/MQ/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
@@ -417,14 +410,7 @@
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/tags/Charles/</loc>
-    <lastmod>2022-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/tags/Hexo/</loc>
+    <loc>https://xuepengju.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -438,7 +424,21 @@
   </url>
   
   <url>
+    <loc>https://xuepengju.github.io/tags/Charles/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuepengju.github.io/tags/postman/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/tags/Hexo/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -482,20 +482,6 @@
   </url>
   
   <url>
-    <loc>https://xuepengju.github.io/categories/Charles/</loc>
-    <lastmod>2022-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuepengju.github.io/categories/Hexo/</loc>
-    <lastmod>2022-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xuepengju.github.io/categories/Appium/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
@@ -503,7 +489,21 @@
   </url>
   
   <url>
+    <loc>https://xuepengju.github.io/categories/Charles/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuepengju.github.io/categories/postman/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuepengju.github.io/categories/Hexo/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
