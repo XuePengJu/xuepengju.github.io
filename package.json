@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "restart": "hexo clean && hexo generate"
-  },
+      },
   "hexo": {
     "version": "4.2.1"
   },
