@@ -156,6 +156,77 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-2021.12/【工具分享】DDNSTO 简单、快速的内网穿透工具" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/posts/f6c5d65f/">【工具分享】DDNSTO 简单、快速的内网穿透工具</a>
+    </h1>
+  
+
+        
+        <a href="/posts/f6c5d65f/" class="archive-article-date">
+  	<time datetime="2021-12-20T16:07:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-12-21</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="随时随地抵达你的-私人网络"><a href="#随时随地抵达你的-私人网络" class="headerlink" title="随时随地抵达你的 私人网络"></a>随时随地抵达你的 私人网络</h3><p>简单、快速的内网穿透工具，不受<br>网络限制，全局掌控您的私人设备
+        
+      
+		<!-- 添加版权声明 -->
+		
+			
+ 
+<!-- #版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明 -->
+
+  <div class="declare" hidden="hidden"></div>
+
+		
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/posts/f6c5d65f/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-2021.12/【测试工具】Android Input命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -1008,251 +1079,6 @@
 
 
   
-    <article id="post-2021.11/常用ADB命令及其用法大全" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/posts/3447541d/">ADB常用命令及其用法大全</a>
-    </h1>
-  
-
-        
-        <a href="/posts/3447541d/" class="archive-article-date">
-  	<time datetime="2021-11-28T14:33:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-11-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="ADB常用命令及其用法大全"><a href="#ADB常用命令及其用法大全" class="headerlink" title="ADB常用命令及其用法大全"></a>ADB常用命令及其用法大全</h2><h4 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h4><blockquote>
-<p>本文主要记述ADB的常用命令，关于ADB用法大全，可参考文末链接</p>
-</blockquote>
-<h4 id="ADB简介："><a href="#ADB简介：" class="headerlink" title="ADB简介："></a>ADB简介：</h4><p>ADB，即 Android Debug Bridge，它是 Android 开发/测试人员不可替代的强大工具，也是 Android 设备玩家的好玩具。安卓调试桥 (Android Debug Bridge, adb)，是一种可以用来操作手机设备或模拟器的命令行工具。它存在于 sdk/platform-tools 目录下。虽然现在 Android Studio 已经将大部分 ADB 命令以图形化的形式实现了，但是了解一下还是有必要的。<br>注： 有部分命令的支持情况可能与 Android 系统版本及定制 ROM 的实现有关。</p>
-<h4 id="查看当前连接设备："><a href="#查看当前连接设备：" class="headerlink" title="查看当前连接设备："></a>查看当前连接设备：</h4><blockquote>
-<p>查看当前连接设备：</p>
-<blockquote>
-<p>adb devices</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>查看当前设备的详细信息</p>
-<blockquote>
-<p>adb devices -l</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>如果发现多个设备：</p>
-<blockquote>
-<p>adb -s 设备号 其他指令</p>
-</blockquote>
-</blockquote>
-<h4 id="adb进程启动和终止"><a href="#adb进程启动和终止" class="headerlink" title="adb进程启动和终止"></a>adb进程启动和终止</h4><blockquote>
-<p>启动服务进程</p>
-<blockquote>
-<p>adb start-server</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>杀死后台服务进程</p>
-<blockquote>
-<p>adb kill-server</p>
-</blockquote>
-</blockquote>
-<h4 id="查看当前运行的Activity"><a href="#查看当前运行的Activity" class="headerlink" title="查看当前运行的Activity:"></a>查看当前运行的Activity:</h4><blockquote>
-<p>windows环境下:</p>
-<blockquote>
-<p>adb shell dumpsys activity | findstr “mFocusedActivity”</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>Linux、Mac环境下：</p>
-<blockquote>
-<p>adb shell dumpsys activity | grep “mFocusedActivity”</p>
-</blockquote>
-</blockquote>
-<h4 id="查看日志："><a href="#查看日志：" class="headerlink" title="查看日志："></a>查看日志：</h4><blockquote>
-<blockquote>
-<p>adb logcat</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>将adb日志保存到文件</p>
-<blockquote>
-<p>adb logcat &gt; 本地文件名</p>
-</blockquote>
-</blockquote>
-<h4 id="安装apk文件："><a href="#安装apk文件：" class="headerlink" title="安装apk文件："></a>安装apk文件：</h4><blockquote>
-<blockquote>
-<p>adb install xxx.apk</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>此安装方式，如果已经存在，无法安装；推荐使用覆盖安装：</p>
-<blockquote>
-<p>adb install -r xxx.apk</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>比分直接RUN出来的包是test-onlu的无法安装，推荐使用<strong>-t</strong></p>
-<blockquote>
-<p>adb install -r -t xxx.apk</p>
-</blockquote>
-</blockquote>
-<h4 id="卸载App"><a href="#卸载App" class="headerlink" title="卸载App:"></a>卸载App:</h4><blockquote>
-<p>adb uninstall com.zhy.app</p>
-</blockquote>
-<blockquote>
-<p>如果想要保留数据，则：</p>
-<blockquote>
-<p>adb uninstall -k com.zhy.app</p>
-</blockquote>
-</blockquote>
-<h4 id="传递文件："><a href="#传递文件：" class="headerlink" title="传递文件："></a>传递文件：</h4><blockquote>
-<p>往手机SDCard传递文件：</p>
-<blockquote>
-<p>adb push 文件名 手机端SDCard路径</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>例如：</p>
-<blockquote>
-<p>adb push 帅照.jpg /sdcard/</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>从手机端下载文件：</p>
-<blockquote>
-<p>adb pull /sdcard/xxx.txt</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>查看手机端安装的所有app包名:</p>
-<blockquote>
-<p>adb shell pm list packages</p>
-</blockquote>
-</blockquote>
-<h4 id="启动Activity"><a href="#启动Activity" class="headerlink" title="启动Activity:"></a>启动Activity:</h4><blockquote>
-<p>adb shell am start 包名/完整Activity路径</p>
-</blockquote>
-<blockquote>
-<p>例如：</p>
-<blockquote>
-<p>adb shell am start com.zhy.aaa/com.zhy.aaa.MainActivity</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>如果需要携带参数(携带一个Intent,Key 为name):<br>adb shell am start com.zhy.aaa/com.zhy.aaa.MainActivity -e name zhy</p>
-</blockquote>
-<blockquote>
-<p>启动一个隐式的Intent:</p>
-<blockquote>
-<p>adb shell am start -a “android.intent.action,VIEW” -d “<a href="https://www.google.com&quot;" target="_blank" rel="noopener">https://www.google.com&quot;</a></p>
-</blockquote>
-</blockquote>
-<h4 id="发送广播："><a href="#发送广播：" class="headerlink" title="发送广播："></a>发送广播：</h4><blockquote>
-<p>adb shell am broadcast -a “broadcastactionfilter”</p>
-</blockquote>
-<blockquote>
-<p>如果需要携带参数（携带一个Intent,key为name）:</p>
-<blockquote>
-<p>adb shell am broadcast -a “broadcastactionfilter” -e name zhy</p>
-</blockquote>
-</blockquote>
-<h4 id="启动服务："><a href="#启动服务：" class="headerlink" title="启动服务："></a>启动服务：</h4><blockquote>
-<p>adb shell am startservice “com.zhy.aaa/com.zhy.aaa.MyService”</p>
-</blockquote>
-<h4 id="屏幕截图："><a href="#屏幕截图：" class="headerlink" title="屏幕截图："></a>屏幕截图：</h4><blockquote>
-<p>可以使用screencap命令来进行手机屏幕截图，例如：</p>
-<blockquote>
-<p>adb shell screencap /sdcard/screen.png</p>
-</blockquote>
-</blockquote>
-<h4 id="录制视频："><a href="#录制视频：" class="headerlink" title="录制视频："></a>录制视频：</h4><blockquote>
-<p>可以使用screenrecord[options] filename命令来录制屏幕视频;<br>例如：</p>
-<blockquote>
-<p>adb shell screenrecord /sdcard/demo.mp4</p>
-</blockquote>
-</blockquote>
-<h4 id="远程连接adb"><a href="#远程连接adb" class="headerlink" title="远程连接adb"></a>远程连接adb</h4><blockquote>
-<p>通过 IP 地址连接设备。</p>
-<blockquote>
-<p>adb connect [device-ip-address]</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>断开无线连接</p>
-<blockquote>
-<p>adb disconnect [device-ip-address]</p>
-</blockquote>
-</blockquote>
-<h4 id="速查-ADB-用法大全-官方文档："><a href="#速查-ADB-用法大全-官方文档：" class="headerlink" title="速查 | ADB 用法大全|官方文档："></a>速查 | ADB 用法大全|官方文档：</h4><blockquote>
-<p><a href="http://www.wanandroid.com/blog/show/2310" target="_blank" rel="noopener">http://www.wanandroid.com/blog/show/2310</a></p>
-</blockquote>
-
-      
-		<!-- 添加版权声明 -->
-		
-			
- 
-<!-- #版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明 -->
-
-  <div class="declare" hidden="hidden"></div>
-
-		
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/posts/3447541d/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/3/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next &amp;raquo;</a>
@@ -1359,11 +1185,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">自动化测试</a>
+                <a href="javascript:void(0)" class="js-tag color3">MQ</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">MQ</a>
+                <a href="javascript:void(0)" class="js-tag color1">自动化测试</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1387,11 +1213,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Python接口自动化测试</a>
+                <a href="javascript:void(0)" class="js-tag color5">Python自动化</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Python自动化</a>
+                <a href="javascript:void(0)" class="js-tag color4">Python接口自动化测试</a>
               </li>
              
               <li class="article-tag-list-item">
